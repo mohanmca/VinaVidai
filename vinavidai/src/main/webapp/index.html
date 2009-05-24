@@ -1,0 +1,26 @@
+<lift:surround with="default" at="content">
+	<lift:Util.out>
+		Please <lift:menu.item name="Login">Log In</lift:menu.item>
+	</lift:Util.out>
+	<lift:Util.in>
+		<lift:QS.add form="post">
+			<table>
+				<tr>
+					<td colspan="2"><question:subject>To Do</question:subject></td>
+					19
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td><question:detail>To Do</question:detail></td>
+					19
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td><question:submit>
+						<button>New</button>
+					</question:submit></td>
+				</tr>
+			</table>
+		</lift:QS.add>
+	</lift:Util.in>
+</lift:surround>

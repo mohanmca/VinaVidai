@@ -1,0 +1,1 @@
+mvn archetype:generate -U  -DarchetypeGroupId=net.liftweb -DarchetypeArtifactId=lift-archetype-basic -DarchetypeVersion=1.0 -DremoteRepositories=http://scala-tools.org/repo-releases -DgroupId=demo.helloworld -DartifactId=vinavidai -Dversion=1.0-SNAPSHOT
