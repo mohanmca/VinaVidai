@@ -1,0 +1,58 @@
+<!--
+  copyright (c) 2009 Google inc.
+
+  You are free to copy and use this sample.
+  License can be found here: http://code.google.com/apis/ajaxsearch/faq/#license
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google AJAX Search API Sample</title>
+    
+        <script type="text/javascript" src="http://localhost:8080/classpath/jquery.js" id="jquery"></script>
+    <script type="text/javascript" src="http://localhost:8080/classpath/json.js" id="json"></script>
+    
+	<script src="http://www.google.com/jsapi?key=ABQIAAAA1XbMiDxx_BTCY2_FkPh06RRaGTYH6UMl8mADNa0YKuWNNa8VNxQEerTAUcfkyrr6OwBovxn7TDAH5Q"></script>
+	<script type="text/javascript">    
+	    google.load("elements", "1", {packages: "transliteration"});    
+	    function OnLoad() {    
+	      var options = {
+	          sourceLanguage:
+	              google.elements.transliteration.LanguageCode.ENGLISH,
+	          destinationLanguage:
+	              [google.elements.transliteration.LanguageCode.TAMIL],
+	          shortcutKey: 'ctrl+g',
+	          transliterationEnabled: true
+	      };    
+	      var control = new google.elements.transliteration.TransliterationControl(options);
+	      control.makeTransliteratable(['tamilDetail']);
+	    }		    
+	    google.setOnLoadCallback(OnLoad);
+    </script>
+  </head>
+  <body style="font-family: Arial;border: 0 none;">
+    <div id="content">Loading...
+    
+        	
+		<form method="post" action="/">
+			<table>
+				<tr>
+					<td>Subject:</td>
+					<td><input name="F4128956166213J4" type="text" value="" /></td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+
+					<td><textarea rows="8" name="F412895616622UKU" cols="80" id="tamilDetail"></textarea></td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td><input name="F412895616623PBQ" type="submit" value="New" /></td>
+				</tr>
+			</table>
+		</form>
+    </div> 
+  </body>
+</html>
