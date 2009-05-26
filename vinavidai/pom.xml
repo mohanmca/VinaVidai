@@ -8,7 +8,7 @@
   <name>vinavidai</name>
   <inceptionYear>2007</inceptionYear>
   <properties>
-    <scala.version>2.7.3</scala.version>
+    <scala.version>2.7.4</scala.version>
   </properties>
 
   <repositories>
@@ -41,7 +41,7 @@
     <dependency>
       <groupId>net.liftweb</groupId>
       <artifactId>lift-core</artifactId>
-      <version>1.0</version>
+      <version>1.1-M1</version>
     </dependency>
 	<!--
     <dependency>

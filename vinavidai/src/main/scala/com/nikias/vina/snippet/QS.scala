@@ -54,12 +54,12 @@ class QS {
       
 	    bind("question", form,
 		    "subject" -> SHtml.text(question.subject, question.subject(_)),
-		    "detail" -> SHtml.text(question.detail, question.detail(_)),
+		    "detail" -> SHtml.textarea(question.detail, question.detail(_),"cols" -> "80", "rows" -> "8"),
 		    "submit" -> SHtml.submit("New", checkAndSave))
     
     }
 
-    def add2(form: NodeSeq) = {	 
+    def add2(form: NodeSeq) = {
 		val question = Question.create.owner(User.currentUser)
   
 		def checkAndSave(): Unit = question.validate match {
@@ -75,3 +75,4 @@ class QS {
 		doBind(form)
     }
 }
+

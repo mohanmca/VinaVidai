@@ -1,18 +1,36 @@
-<lift:surround with="default" at="content">
+<lift:surround with="defaultQuestion" at="content">
 	<lift:Util.out>
 		Please <lift:menu.item name="Login">Log In</lift:menu.item>
 	</lift:Util.out>
 	<lift:Util.in>
+	
+	<script src="http://www.google.com/jsapi?key=ABQIAAAA1XbMiDxx_BTCY2_FkPh06RRaGTYH6UMl8mADNa0YKuWNNa8VNxQEerTAUcfkyrr6OwBovxn7TDAH5Q"></script>
+	<script type="text/javascript">    
+	    google.load('elements', '1', {packages: 'transliteration'});    
+	    function OnLoad() {    
+	      var options = {
+	          sourceLanguage:
+	              google.elements.transliteration.LanguageCode.ENGLISH,
+	          destinationLanguage:
+	              [google.elements.transliteration.LanguageCode.TAMIL],
+	          shortcutKey: 'ctrl+g',
+	          transliterationEnabled: true
+	      };    
+	      var control = new google.elements.transliteration.TransliterationControl(options);
+	      control.makeTransliteratable(['tamilDetail']);
+	    }		    
+	    google.setOnLoadCallback(OnLoad);
+    </script>
+    	
 		<lift:QS.add form="post">
 			<table>
 				<tr>
-					<td colspan="2"><question:subject>To Do</question:subject></td>
-					19
+					<td>Subject:</td>
+					<td><question:subject>To Do</question:subject></td>
 				</tr>
 				<tr>
 					<td>Description:</td>
-					<td><question:detail>To Do</question:detail></td>
-					19
+					<td><question:detail question:id="tamilDetail">To Do</question:detail></td>
 				</tr>
 				<tr>
 					<td>&nbsp;</td>
