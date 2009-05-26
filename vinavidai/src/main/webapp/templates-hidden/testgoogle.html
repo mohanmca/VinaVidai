@@ -1,22 +1,85 @@
-<!--
-  copyright (c) 2009 Google inc.
-
-  You are free to copy and use this sample.
-  License can be found here: http://code.google.com/apis/ajaxsearch/faq/#license
--->
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <title>Google AJAX Search API Sample</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:lift="http://liftweb.net/" xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
     
-        <script type="text/javascript" src="http://localhost:8080/classpath/jquery.js" id="jquery"></script>
-    <script type="text/javascript" src="http://localhost:8080/classpath/json.js" id="json"></script>
+    <title>Lift Web Framework</title>
     
+      <link href="http://localhost:8080/classpath/blueprint/screen.css" type="text/css" rel="stylesheet" media="screen, projection" />
+      <link href="http://localhost:8080/classpath/blueprint/print.css" type="text/css" rel="stylesheet" media="print" />
+    
+  <!--[if IE]><link rel="stylesheet" href="http://localhost:8080/classpath/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+    
+    <link href="http://localhost:8080/classpath/blueprint/plugins/fancy-type/screen.css" type="text/css" rel="stylesheet" media="screen, projection" />
+    <style>
+/* <![CDATA[ */
+.sidebar ul {
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #ccc;
+}
+	 
+
+.sidebar ul li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	border:1px solid #ccc;
+	border-bottom:none;
+}
+
+.sidebar ul li a {
+	display:block;
+	padding:3px;
+	text-indent:30px;
+	text-decoration:none;
+}
+
+.sidebar ul li span {
+	display:block;
+	padding:3px;
+	text-indent:30px;
+	text-decoration:none;
+}
+
+.sidebar ul li a:hover {
+	background-color: #eee;
+}
+
+
+  /* ]]> */
+  </style>
+  <script type="text/javascript" src="http://localhost:8080/ajax_request/liftAjax.js"></script></head>
+  <body>
+    <div class="container">
+      <div style="text-align: right" class="column span-12 last">
+        <h1 class="alt">vinavidai<img src="http://localhost:8080/images/ajax-loader.gif" style="display:none; margin-bottom: 0px; margin-left: 5px" id="ajax-loader" /></h1>
+
+      </div>
+
+      <hr />
+
+      <div class="column span-6 colborder sidebar">
+        <hr class="space" />
+        <ul><li><span>Home</span></li><li><a href="http://localhost:8080/user_mgt/logout">Logout</a></li><li><a href="http://localhost:8080/user_mgt/edit">Edit User</a></li><li><a href="http://localhost:8080/user_mgt/change_password">Change Password</a></li></ul>	
+        <div>
+
+          <div id="lift__noticesContainer__"></div>
+          <hr class="space" />
+        </div>
+      </div>
+
+      <div class="column span-17 last">
+        
+	
+	
+	
 	<script src="http://www.google.com/jsapi?key=ABQIAAAA1XbMiDxx_BTCY2_FkPh06RRaGTYH6UMl8mADNa0YKuWNNa8VNxQEerTAUcfkyrr6OwBovxn7TDAH5Q"></script>
 	<script type="text/javascript">    
-	    google.load("elements", "1", {packages: "transliteration"});    
+	    google.load('elements', '1', {packages: 'transliteration'});    
 	    function OnLoad() {    
 	      var options = {
 	          sourceLanguage:
@@ -28,31 +91,48 @@
 	      };    
 	      var control = new google.elements.transliteration.TransliterationControl(options);
 	      control.makeTransliteratable(['tamilDetail']);
+	      control.makeTransliteratable(['tamilSubject']);
 	    }		    
 	    google.setOnLoadCallback(OnLoad);
     </script>
-  </head>
-  <body style="font-family: Arial;border: 0 none;">
-    <div id="content">Loading...
-    
-        	
+
+    	
 		<form method="post" action="/">
 			<table>
 				<tr>
 					<td>Subject:</td>
-					<td><input name="F4128956166213J4" type="text" value="" /></td>
+					<td><input name="F1034202560260XLM" type="text" value="" id="tamilSubject"/></td>
 				</tr>
 				<tr>
 					<td>Description:</td>
 
-					<td><textarea rows="8" name="F412895616622UKU" cols="80" id="tamilDetail"></textarea></td>
+					<td><textarea rows="8" name="F1034202560261UDY" cols="80" id="tamilDetail"></textarea></td>
 				</tr>
 				<tr>
 					<td> </td>
-					<td><input name="F412895616623PBQ" type="submit" value="New" /></td>
+					<td><input name="F1034202560262Q1E" type="submit" value="New" /></td>
 				</tr>
 			</table>
 		</form>
-    </div> 
-  </body>
-</html>
+
+	
+
+      </div>
+
+      <hr />
+      <div style="text-align: center" class="column span-23 last">
+        <h4 class="alt">
+          <a href="http://liftweb.net"><i>Lift</i></a> 
+	  is Copyright 2007-2009 WorldWide Conferencing, LLC.  Distributed under an Apache 2.0 License.</h4>
+      </div>
+      
+    </div>
+
+  <script type="text/javascript">
+// <![CDATA[
+jQuery(document).ready(function() {lift_successRegisterGC();});
+var lift_page = 'F1034202560259NTO';
+// ]]>
+</script></body>
+</html>  
+  
