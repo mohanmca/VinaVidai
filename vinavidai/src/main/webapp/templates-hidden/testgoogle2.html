@@ -5,10 +5,15 @@
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     
-    	<title>Lift Web Framework</title>
+    <title>Lift Web Framework</title>
+    
       <link href="http://localhost:8080/classpath/blueprint/screen.css" type="text/css" rel="stylesheet" media="screen, projection" />
       <link href="http://localhost:8080/classpath/blueprint/print.css" type="text/css" rel="stylesheet" media="print" />
-	  <link href="http://localhost:8080/classpath/blueprint/plugins/fancy-type/screen.css" type="text/css" rel="stylesheet" media="screen, projection" />
+    
+  <!--[if IE]><link rel="stylesheet" href="http://localhost:8080/classpath/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+    
+    <link href="http://localhost:8080/classpath/blueprint/plugins/fancy-type/screen.css" type="text/css" rel="stylesheet" media="screen, projection" />
     <style>
 /* <![CDATA[ */
 .sidebar ul {
@@ -47,11 +52,11 @@
 
   /* ]]> */
   </style>
-  <script type="text/javascript" src="/ajax_request/liftAjax.js"></script></head>
+  <script type="text/javascript" src="http://localhost:8080/ajax_request/liftAjax.js"></script></head>
   <body>
     <div class="container">
       <div style="text-align: right" class="column span-12 last">
-        <h1 class="alt">vinavidai<img src="/images/ajax-loader.gif" style="display:none; margin-bottom: 0px; margin-left: 5px" id="ajax-loader" /></h1>
+        <h1 class="alt">vinavidai<img src="http://localhost:8080/images/ajax-loader.gif" style="display:none; margin-bottom: 0px; margin-left: 5px" id="ajax-loader" /></h1>
 
       </div>
 
@@ -59,10 +64,10 @@
 
       <div class="column span-6 colborder sidebar">
         <hr class="space" />
-        <ul><li><span>Home</span></li><li><a href="/user_mgt/logout">Logout</a></li><li><a href="/user_mgt/edit">Edit User</a></li><li><a href="/user_mgt/change_password">Change Password</a></li></ul>	
+        <ul><li><span>Home</span></li><li><a href="http://localhost:8080/user_mgt/logout">Logout</a></li><li><a href="http://localhost:8080/user_mgt/edit">Edit User</a></li><li><a href="http://localhost:8080/user_mgt/change_password">Change Password</a></li></ul>	
         <div>
 
-          <div id="lift__noticesContainer__"></div>
+          <div id="lift__noticesContainer__"><div>Notice<ul><li>Welcome</li></ul></div></div>
           <hr class="space" />
         </div>
       </div>
@@ -91,20 +96,20 @@
     </script>
 
     	
-		<form method="post" action="/">
+		<form method="post" action="http://localhost:8080/">
 			<table>
 				<tr>
 					<td>Subject:</td>
-					<td><input name="F1034202560255J3O" type="text" value="" /></td>
+					<td><input name="F6069920674950RV" type="text" value="" /></td>
 				</tr>
 				<tr>
 					<td>Description:</td>
 
-					<td><textarea rows="8" name="F1034202560256FAB" cols="80" id="tamilDetail"></textarea></td>
+					<td><textarea rows="8" name="F606992067496TP4" cols="80" id="tamilDetail"></textarea></td>
 				</tr>
 				<tr>
 					<td> </td>
-					<td><input name="F1034202560257Y1F" type="submit" value="New" /></td>
+					<td><input name="F606992067497WWM" type="submit" value="New" /></td>
 				</tr>
 			</table>
 		</form>
@@ -125,7 +130,7 @@
   <script type="text/javascript">
 // <![CDATA[
 jQuery(document).ready(function() {lift_successRegisterGC();});
-var lift_page = 'F1034202560254DXD';
+var lift_page = 'F6069920674943ZM';
 // ]]>
 </script></body>
 </html>  

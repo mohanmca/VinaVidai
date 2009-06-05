@@ -33,6 +33,10 @@ class Boot {
     LiftRules.ajaxStart =
       Full(() => LiftRules.jsArtifacts.show("ajax-loader").cmd)
 
+    LiftRules.enableLiftGC = false
+    
+    LiftRules.useXhtmlMimeType = false
+
     /*
      * Make the spinny image go away when it ends
      */
@@ -82,7 +86,7 @@ object DBVendor extends ConnectionManager {
     case e: Exception => e.printStackTrace; Empty
   }
   
-def newConnection(name: ConnectionIdentifier): Box[Connection] = {
+def newConnection3(name: ConnectionIdentifier): Box[Connection] = {
    try {
      Class.forName("com.mysql.jdbc.Driver")
      val dm = DriverManager.getConnection("jdbc:mysql://localhost:3306/nikias?user=root&password=admin")
@@ -93,10 +97,10 @@ def newConnection(name: ConnectionIdentifier): Box[Connection] = {
  }
 
 
-  def releaseConnection(conn: Connection) {conn.close}
+  def releaseConnection2(conn: Connection) {conn.close}
   
 
-  def newConnection2(name: ConnectionIdentifier): Box[Connection] =
+  def newConnection(name: ConnectionIdentifier): Box[Connection] =
     synchronized {
       pool match {
 	case Nil if poolSize < maxPoolSize =>
@@ -122,7 +126,7 @@ def newConnection(name: ConnectionIdentifier): Box[Connection] = {
       }
     }
 
-  def releaseConnection2(conn: Connection): Unit = synchronized {
+  def releaseConnection(conn: Connection): Unit = synchronized {
     pool = conn :: pool
     notify
   }

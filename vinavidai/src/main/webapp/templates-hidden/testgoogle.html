@@ -14,6 +14,8 @@
 
     
     <link href="http://localhost:8080/classpath/blueprint/plugins/fancy-type/screen.css" type="text/css" rel="stylesheet" media="screen, projection" />
+    <script type="text/javascript" src="/classpath/jquery.js" id="jquery"></script>
+    <script type="text/javascript" src="/classpath/json.js" id="json"></script>
     <style>
 /* <![CDATA[ */
 .sidebar ul {
@@ -52,12 +54,12 @@
 
   /* ]]> */
   </style>
-  <script type="text/javascript" src="http://localhost:8080/ajax_request/liftAjax.js"></script></head>
+  <script type="text/javascript" src="/ajax_request/liftAjax.js"></script></head>
   <body>
     <div class="container">
-      <div style="text-align: right" class="column span-12 last">
-        <h1 class="alt">vinavidai<img src="http://localhost:8080/images/ajax-loader.gif" style="display:none; margin-bottom: 0px; margin-left: 5px" id="ajax-loader" /></h1>
 
+      <div style="text-align: right" class="column span-12 last">
+        <h1 class="alt">vinavidai<img src="/images/ajax-loader.gif" style="display:none; margin-bottom: 0px; margin-left: 5px" id="ajax-loader" /></h1>
       </div>
 
       <hr />
@@ -67,7 +69,7 @@
         <ul><li><span>Home</span></li><li><a href="http://localhost:8080/user_mgt/logout">Logout</a></li><li><a href="http://localhost:8080/user_mgt/edit">Edit User</a></li><li><a href="http://localhost:8080/user_mgt/change_password">Change Password</a></li></ul>	
         <div>
 
-          <div id="lift__noticesContainer__"></div>
+          <div id="lift__noticesContainer__"><div>Notice<ul><li>Logged In</li></ul></div></div>
           <hr class="space" />
         </div>
       </div>
@@ -77,40 +79,22 @@
 	
 	
 	
-	<script src="http://www.google.com/jsapi?key=ABQIAAAA1XbMiDxx_BTCY2_FkPh06RRaGTYH6UMl8mADNa0YKuWNNa8VNxQEerTAUcfkyrr6OwBovxn7TDAH5Q"></script>
-	<script type="text/javascript">    
-	    google.load('elements', '1', {packages: 'transliteration'});    
-	    function OnLoad() {    
-	      var options = {
-	          sourceLanguage:
-	              google.elements.transliteration.LanguageCode.ENGLISH,
-	          destinationLanguage:
-	              [google.elements.transliteration.LanguageCode.TAMIL],
-	          shortcutKey: 'ctrl+g',
-	          transliterationEnabled: true
-	      };    
-	      var control = new google.elements.transliteration.TransliterationControl(options);
-	      control.makeTransliteratable(['tamilDetail']);
-	      control.makeTransliteratable(['tamilSubject']);
-	    }		    
-	    google.setOnLoadCallback(OnLoad);
-    </script>
 
     	
 		<form method="post" action="/">
 			<table>
 				<tr>
 					<td>Subject:</td>
-					<td><input name="F1034202560260XLM" type="text" value="" id="tamilSubject"/></td>
+					<td><input value="" type="text" name="F270523697366PVF" id="tamilSubject" /></td>
 				</tr>
 				<tr>
 					<td>Description:</td>
 
-					<td><textarea rows="8" name="F1034202560261UDY" cols="80" id="tamilDetail"></textarea></td>
+					<td><textarea rows="8" name="F270523697367QT0" cols="80" id="tamilDetail"></textarea></td>
 				</tr>
 				<tr>
 					<td> </td>
-					<td><input name="F1034202560262Q1E" type="submit" value="New" /></td>
+					<td><input name="F270523697368CZ5" type="submit" value="New" /></td>
 				</tr>
 			</table>
 		</form>
@@ -131,7 +115,7 @@
   <script type="text/javascript">
 // <![CDATA[
 jQuery(document).ready(function() {lift_successRegisterGC();});
-var lift_page = 'F1034202560259NTO';
+var lift_page = 'F27052369736502T';
 // ]]>
 </script></body>
 </html>  

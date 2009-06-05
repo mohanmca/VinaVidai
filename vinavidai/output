@@ -1,0 +1,1920 @@
++ Error stacktraces are turned on.
+Apache Maven 2.1.0 (r755702; 2009-03-19 03:10:27+0800)
+Java version: 1.6.0_11
+Java home: D:\jini\jdk1.6.0\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows vista" version: "6.0" arch: "x86" Family: "windows"
+[DEBUG] Building Maven user-level plugin registry from: 'C:\Users\mohan\.m2\plugin-registry.xml'
+[DEBUG] Building Maven global-level plugin registry from: 'D:\jini\apache-maven-2.1.0\conf\plugin-registry.xml'
+[INFO] Scanning for projects...
+[DEBUG] Wagons could not be registered as the extension container was never created
+[INFO] ------------------------------------------------------------------------
+[INFO] Building vinavidai
+[INFO]    task-segment: [compile]
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Retrieving parent-POM: org.apache.maven.plugins:maven-plugins:pom:12 for project: null:maven-resources-plugin:maven-plugin:2.3 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent:pom:9 for project: org.apache.maven.plugins:maven-plugins:pom:12 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache:pom:4 for project: org.apache.maven:maven-parent:pom:9 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven.plugins:maven-plugins:pom:8 for project: null:maven-compiler-plugin:maven-plugin:2.0.2 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent:pom:5 for project: org.apache.maven.plugins:maven-plugins:pom:8 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache:pom:3 for project: org.apache.maven:maven-parent:pom:5 from the repository.
+[DEBUG] maven-scala-plugin: resolved to version 2.11-SNAPSHOT from repository central
+[DEBUG] Skipping disabled repository central
+[DEBUG] maven-scala-plugin: using locally installed snapshot
+[DEBUG] Retrieving parent-POM: org.scala-tools:scala-tools-parent:pom:1.4 for project: null:maven-scala-plugin:maven-plugin:2.11-SNAPSHOT from the repository.
+[DEBUG] maven-scala-plugin: using locally installed snapshot
+[DEBUG] maven-jetty-plugin: resolved to version 6.1.16 from repository central
+[DEBUG] Retrieving parent-POM: org.mortbay.jetty:project:pom:6.1.16 for project: org.mortbay.jetty:maven-jetty-plugin:maven-plugin:null from the repository.
+[DEBUG] Retrieving parent-POM: org.mortbay.jetty:jetty-parent:pom:7 for project: org.mortbay.jetty:project:pom:6.1.16 from the repository.
+[DEBUG] Adding managed dependencies for org.mortbay.jetty:maven-jetty-plugin
+[DEBUG]   org.apache.maven:maven-plugin-tools-api:jar:2.0
+[DEBUG]   junit:junit:jar:3.8.2
+[DEBUG]   org.slf4j:jcl104-over-slf4j:jar:1.3.1
+[DEBUG]   org.slf4j:slf4j-simple:jar:1.3.1
+[DEBUG]   org.slf4j:slf4j-api:jar:1.3.1
+[DEBUG]   ant:ant:jar:1.6.5
+[DEBUG]   geronimo-spec:geronimo-spec-jta:jar:1.0.1B-rc4
+[DEBUG]   javax.mail:mail:jar:1.4
+[DEBUG]   javax.activation:activation:jar:1.1
+[DEBUG] yuicompressor-maven-plugin: resolved to version 0.7.1 from repository central
+[DEBUG] Retrieving parent-POM: net.sf.alchim:alchim-parent:pom:3 for project: null:yuicompressor-maven-plugin:maven-plugin:0.7.1 from the repository.
+[DEBUG] Adding managed dependencies for unknown:yuicompressor-maven-plugin
+[DEBUG]   net.sf.alchim:alchim-codeplus:jar:0.3.1:provided
+[DEBUG]   commons-lang:commons-lang:jar:2.3
+[DEBUG]   org.apache.commons:commons-io:jar:1.3.2
+[DEBUG]   ch.qos.logback:logback-classic:jar:0.9.7
+[DEBUG]   org.slf4j:slf4j-api:jar:1.4.3
+[DEBUG]   org.slf4j:slf4j-simple:jar:1.4.3
+[DEBUG]   org.slf4j:jcl104-over-slf4j:jar:1.4.3
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   org.apache.wicket:wicket:jar:1.3.0-beta4
+[DEBUG]   org.apache.wicket:wicket-guice:jar:1.3.0-beta4
+[DEBUG]   org.apache.wicket:wicket-extensions:jar:1.3.0-beta4
+[DEBUG]   org.apache.wicket:wicket-datetime:jar:1.3.0-beta4
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.7:provided
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.7:provided
+[DEBUG]   org.apache.maven.reporting:maven-reporting-impl:jar:2.0.4
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.4
+[DEBUG]   org.apache.maven.doxia:doxia-site-renderer:jar:1.0-alpha-8
+[DEBUG]   org.testng:testng:jar:jdk15:5.1:test
+[DEBUG]   junit:junit:jar:3.8.2:test
+[DEBUG] maven-eclipse-plugin: resolved to version 2.6 from repository central
+[DEBUG] Retrieving parent-POM: org.apache.maven.plugins:maven-plugins:pom:13 for project: null:maven-eclipse-plugin:maven-plugin:2.6 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent:pom:11 for project: org.apache.maven.plugins:maven-plugins:pom:13 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache:pom:5 for project: org.apache.maven:maven-parent:pom:11 from the repository.
+[DEBUG] Plugin dependencies for:
+
+org.apache.maven.plugins:maven-resources-plugin:2.3
+
+are:
+
+org.apache.maven:maven-plugin-api:jar:2.0.6:runtime
+org.apache.maven:maven-project:jar:2.0.6:runtime
+org.codehaus.plexus:plexus-utils:jar:1.5.6:runtime
+org.apache.maven.shared:maven-filtering:jar:1.0-beta-2:runtime
+
+
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:maven-plugin:2.3:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven:pom:2.0.6 for project: null:maven-plugin-api:jar:null from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-plugin-api
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-project
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-settings
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-settings:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-model
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus:pom:1.0.11 for project: null:plexus-utils:jar:1.4.1 from the repository.
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus-containers:pom:1.0.3 for project: null:plexus-container-default:jar:1.0-alpha-9-stable-1 from the repository.
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus:pom:1.0.4 for project: org.codehaus.plexus:plexus-containers:pom:1.0.3 from the repository.
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:runtime (selected for runtime)
+[DEBUG]         junit:junit:jar:3.8.1:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.4.1)
+[DEBUG]         classworlds:classworlds:jar:1.1-alpha-2:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-profile
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-profile:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]     org.apache.maven:maven-model:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-artifact-manager
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-artifact-manager:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-repository-metadata
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-artifact
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven.wagon:wagon:pom:1.0-beta-2 for project: null:wagon-provider-api:jar:1.0-beta-2 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent:pom:4 for project: org.apache.maven.wagon:wagon:pom:1.0-beta-2 from the repository.
+[DEBUG] Adding managed dependencies for unknown:wagon-provider-api
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]       org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.4.1)
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-plugin-registry
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-plugin-registry:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (selected for runtime)
+[DEBUG]     org.apache.maven:maven-artifact:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:runtime (selected for runtime)
+[DEBUG]       junit:junit:jar:3.8.1:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.4.1)
+[DEBUG]       classworlds:classworlds:jar:1.1-alpha-2:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus:pom:1.0.12 for project: null:plexus-utils:jar:1.5.6 from the repository.
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 1.5.6)
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.6:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven.shared:maven-shared-components:pom:10 for project: org.apache.maven.shared:maven-filtering:jar:1.0-beta-2 from the repository.
+[DEBUG]   org.apache.maven.shared:maven-filtering:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-core
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-core:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven.wagon:wagon-providers:pom:1.0-beta-2 for project: null:wagon-file:jar:1.0-beta-2 from the repository.
+[DEBUG] Adding managed dependencies for unknown:wagon-file
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2:test
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]       org.apache.maven.wagon:wagon-file:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-plugin-parameter-documenter
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 1.5.6)
+[DEBUG] Adding managed dependencies for unknown:wagon-http-lightweight
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2:test
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]       org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:wagon-http-shared
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2:test
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]         org.apache.maven.wagon:wagon-http-shared:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]           jtidy:jtidy:jar:4aug2000r7-dev:runtime (selected for runtime)
+[DEBUG]         xml-apis:xml-apis:jar:1.0.b2:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven.reporting:maven-reporting:pom:2.0.6 for project: null:maven-reporting-api:jar:null from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-reporting-api
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven.doxia:doxia:pom:1.0-alpha-7 for project: null:doxia-sink-api:jar:1.0-alpha-7 from the repository.
+[DEBUG]         org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-error-diagnostics
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]       commons-cli:commons-cli:jar:1.0:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:wagon-ssh-external
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2:test
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]       org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.6)
+[DEBUG] Adding managed dependencies for unknown:wagon-ssh-common
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2:test
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]         org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]           org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.6)
+[DEBUG]           org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: plexus:plexus-containers:pom:1.0.2 for project: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-7 from the repository.
+[DEBUG] Retrieving parent-POM: plexus:plexus-root:pom:1.0.3 for project: plexus:plexus-containers:pom:1.0.2 from the repository.
+[DEBUG]             org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-7:runtime (removed - nearer found: 1.0-alpha-9-stable-1)
+[DEBUG]             plexus:plexus-utils:jar:1.0.2:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-plugin-descriptor
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-monitor
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:wagon-ssh
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-common-test:jar:1.0-beta-2:test
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-provider-test:jar:1.0-beta-2
+[DEBUG]   junit:junit:jar:3.8.1
+[DEBUG]   org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]       org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]         com.jcraft:jsch:jar:0.1.27:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.6)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.4.1:runtime (removed - nearer found: 1.5.6)
+[DEBUG]       classworlds:classworlds:jar:1.1:runtime (removed - nearer found: 1.1-alpha-2)
+[DEBUG]     org.apache.maven:maven-monitor:jar:2.0.6:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-interpolation:jar:1.6:runtime (selected for runtime)
+[DEBUG]  The following artifacts were filtered out for plugin: org.apache.maven.plugins:maven-resources-plugin:2.3 because they're already in the core of Maven:
+
+org.apache.maven:maven-plugin-api:jar:2.0.6:runtime
+org.apache.maven:maven-project:jar:2.0.6:runtime
+
+These will use the artifact files already in the core ClassRealm instead, to allow them to be included in PluginDescriptor.getArtifacts().
+
+
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.3:resources' -->
+[DEBUG]   (f) filters = []
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = D:\Scala\Application\github\VinaVidai\vinavidai\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: demo.helloworld:vinavidai:1.1-SNAPSHOT @ D:\Scala\Application\github\VinaVidai\vinavidai\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: D:\Scala\Application\github\VinaVidai\vinavidai\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@111bfbc
+[DEBUG] -- end configuration --
+[INFO] [resources:resources]
+[DEBUG] properties used {java.vendor=Sun Microsystems Inc., env.SYSTEMROOT=C:\Windows, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot Client Compiler, env.PROMPT=$P$G, os.name=Windows Vista, env.FP_NO_HOST_CHECK=NO, sun.boot.class.path=D:\jini\jdk1.6.0\jre\lib\resources.jar;D:\jini\jdk1.6.0\jre\lib\rt.jar;D:\jini\jdk1.6.0\jre\lib\sunrsasign.jar;D:\jini\jdk1.6.0\jre\lib\jsse.jar;D:\jini\jdk1.6.0\jre\lib\jce.jar;D:\jini\jdk1.6.0\jre\lib\charsets.jar;D:\jini\jdk1.6.0\jre\classes, env.COMPUTERNAME=NIKIAS, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Sun Microsystems Inc., java.runtime.version=1.6.0_11-b03, env.HOMEPATH=\Users\mohan, user.name=mohan, env.QTJAVA=C:\Program Files\Java\jre6\lib\ext\QTJava.zip, env.PATH=C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files\Intuwave\Shared\mRouterRuntime;D:\Program Files\QuickTime\QTSystem\;d:\Program Files\Git\cmd;d:\Program Files\jEdit;D:\Program Files\MySQL\MySQL Server 5.1\bin;C:\Program Files\Haskell\bin;D:\Haskell\ghc\ghc-6.8.3\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files\Intuwave\Shared\mRouterRuntime;D:\Program Files\QuickTime\QTSystem\;d:\Program Files\Git\cmd;d:\Program Files\jEdit;D:\Program Files\MySQL\MySQL Server 5.1\bin;D:\jini\jdk1.6.0\bin\;d:\Scala\bin;D:\jini\apache-maven-2.1.0\bin, user.language=en, env.WINDIR=C:\Windows, sun.boot.library.path=D:\jini\jdk1.6.0\jre\bin, classworlds.conf=D:\jini\apache-maven-2.1.0\bin\m2.conf, java.version=1.6.0_11, env.PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 2, GenuineIntel, user.timezone=Asia/Singapore, env.TEMP=C:\Users\mohan\AppData\Local\Temp, sun.arch.data.model=32, java.endorsed.dirs=D:\jini\jdk1.6.0\jre\lib\endorsed, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=50.0, user.country=US, java.home=D:\jini\jdk1.6.0\jre, env.APPDATA=C:\Users\mohan\AppData\Roaming, env.CONFIGSETROOT=C:\Windows\ConfigSetRoot, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.TOMCAT_HOME=D:/jini/apache-tomcat-5.5.27/, env.OS=Windows_NT, os.version=6.0, path.separator=;, java.vm.version=11.0-b16, env.USERPROFILE=C:\Users\mohan, user.variant=, env.JAVA_HOME=D:\jini\jdk1.6.0, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\mohan\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.home=C:\Users\mohan, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.SESSIONNAME=Console, java.specification.vendor=Sun Microsystems Inc., env.CLASSPATH=.;C:\Program Files\Java\jre6\lib\ext\QTJava.zip, env.M2_HOME=D:\jini\apache-maven-2.1.0, env.NUMBER_OF_PROCESSORS=2, java.library.path=D:\jini\jdk1.6.0\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files\Intuwave\Shared\mRouterRuntime;D:\Program Files\QuickTime\QTSystem\;d:\Program Files\Git\cmd;d:\Program Files\jEdit;D:\Program Files\MySQL\MySQL Server 5.1\bin;C:\Program Files\Haskell\bin;D:\Haskell\ghc\ghc-6.8.3\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files\Intuwave\Shared\mRouterRuntime;D:\Program Files\QuickTime\QTSystem\;d:\Program Files\Git\cmd;d:\Program Files\jEdit;D:\Program Files\MySQL\MySQL Server 5.1\bin;D:\jini\jdk1.6.0\bin\;d:\Scala\bin;D:\jini\apache-maven-2.1.0\bin, java.vendor.url=http://java.sun.com/, env.MAVEN_CMD_LINE_ARGS=compile -Dmaven.scala.displayCmd=true -X, env.JWSDP_HOME=D:/jini/webservice/Sun/jwsdp-2.0, java.vm.vendor=Sun Microsystems Inc., maven.home=D:\jini\apache-maven-2.1.0, java.runtime.name=Java(TM) SE Runtime Environment, java.class.path=D:\jini\apache-maven-2.1.0\boot\classworlds-1.1.jar, env.MAVEN_JAVA_EXE="D:\jini\jdk1.6.0\bin\java.exe", java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\NIKIAS, env.PROCESSOR_ARCHITECTURE=x86, java.vm.specification.version=1.0, sun.os.patch.level=Service Pack 1, sun.cpu.endian=little, env.HOME=C:\Users\mohan, maven.scala.displayCmd=true, java.io.tmpdir=C:\Users\mohan\AppData\Local\Temp\, env.PROCESSOR_REVISION=0f02, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, env.MAVEN_OPTS=-Xmx1024m, env.COMSPEC=C:\Windows\system32\cmd.exe, env.PROGRAMDATA=C:\ProgramData, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, os.arch=x86, java.ext.dirs=D:\jini\jdk1.6.0\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, user.dir=D:\Scala\Application\github\VinaVidai\vinavidai, env.LOCALAPPDATA=C:\Users\mohan\AppData\Local, line.separator=
+, java.vm.name=Java HotSpot(TM) Client VM, env.CLASSWORLDS_JAR="D:\jini\apache-maven-2.1.0\boot\classworlds-1.1.jar", env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, scala.version=2.7.3, env.ERROR_CODE=0, env.M2=D:\jini\apache-maven-2.1.0, env.USERNAME=mohan, env.SCALA_HOME=d:\Scala, file.encoding=Cp1252, env.USERDOMAIN=nikias, java.specification.version=1.6, env.MVN_HOME=D:\jini\apache-maven-2.1.0, env.PROCESSOR_LEVEL=6}
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory D:\Scala\Application\github\VinaVidai\vinavidai\src\main\resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory D:\Scala\Application\github\VinaVidai\vinavidai\src\main\resources
+[DEBUG] Plugin dependencies for:
+
+net.sf.alchim:yuicompressor-maven-plugin:0.7.1
+
+are:
+
+rhino:js:jar:1.6R7:runtime
+net.sf.retrotranslator:retrotranslator-runtime:jar:1.2.1:runtime
+org.codehaus.plexus:plexus-utils:jar:1.1:runtime
+
+
+[DEBUG] net.sf.alchim:yuicompressor-maven-plugin:maven-plugin:0.7.1:runtime (selected for runtime)
+[DEBUG]   rhino:js:jar:1.6R7:runtime (selected for runtime)
+[DEBUG]   net.sf.retrotranslator:retrotranslator-runtime:jar:1.2.1:runtime (selected for runtime)
+[DEBUG]     backport-util-concurrent:backport-util-concurrent:jar:3.0:runtime (selected for runtime)
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.1:runtime (selected for runtime)
+[DEBUG]  The following artifacts were filtered out for plugin: net.sf.alchim:yuicompressor-maven-plugin:0.7.1 because they're already in the core of Maven:
+
+
+
+These will use the artifact files already in the core ClassRealm instead, to allow them to be included in PluginDescriptor.getArtifacts().
+
+
+[DEBUG] Configuring mojo 'net.sf.alchim:yuicompressor-maven-plugin:0.7.1:compress' -->
+[DEBUG]   (f) disableOptimizations = false
+[DEBUG]   (f) encoding = Cp1252
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) force = false
+[DEBUG]   (f) gzip = false
+[DEBUG]   (f) jswarn = true
+[DEBUG]   (f) linebreakpos = 0
+[DEBUG]   (f) nomunge = false
+[DEBUG]   (f) nosuffix = true
+[DEBUG]   (f) outputDirectory = D:\Scala\Application\github\VinaVidai\vinavidai\target\classes
+[DEBUG]   (f) preserveAllSemiColons = false
+[DEBUG]   (f) project = MavenProject: demo.helloworld:vinavidai:1.1-SNAPSHOT @ D:\Scala\Application\github\VinaVidai\vinavidai\pom.xml
+[DEBUG]   (f) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: D:\Scala\Application\github\VinaVidai\vinavidai\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) sourceDirectory = D:\Scala\Application\github\VinaVidai\vinavidai\src\main\scala\..\js
+[DEBUG]   (f) statistics = true
+[DEBUG]   (f) suffix = -min
+[DEBUG]   (f) warSourceDirectory = D:\Scala\Application\github\VinaVidai\vinavidai\src\main\webapp
+[DEBUG]   (f) webappDirectory = D:\Scala\Application\github\VinaVidai\vinavidai\target\vinavidai-1.1-SNAPSHOT
+[DEBUG] -- end configuration --
+[INFO] [yuicompressor:compress {execution: default}]
+[DEBUG] compress file :D:\Scala\Application\github\VinaVidai\vinavidai\src\main\webapp\scripts\googleIndicTransliteration.js to D:\Scala\Application\github\VinaVidai\vinavidai\target\vinavidai-1.1-SNAPSHOT\scripts\googleIndicTransliteration.js
+[DEBUG] only compress if input file is youger than existing output file
+[INFO] nothing to do, D:\Scala\Application\github\VinaVidai\vinavidai\target\vinavidai-1.1-SNAPSHOT\scripts\googleIndicTransliteration.js is younger than original, use 'force' option or clean your target
+[INFO] nb warnings: 0, nb errors: 0
+[DEBUG] demo.helloworld:vinavidai:war:1.1-SNAPSHOT (selected for null)
+[DEBUG]   mysql:mysql-connector-java:jar:5.1.6:compile (selected for compile)
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.3:compile (selected for compile)
+[DEBUG] Skipping disabled repository central
+[DEBUG] lift-core: using locally installed snapshot
+[DEBUG] Retrieving parent-POM: net.liftweb:lift:pom:1.1-SNAPSHOT for project: null:lift-core:jar:null from the repository.
+[DEBUG] Skipping disabled repository central
+[DEBUG] lift: using locally installed snapshot
+[DEBUG] Adding managed dependencies for unknown:lift-core
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.4
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   org.apache.felix:org.osgi.core:jar:1.2.0:provided
+[DEBUG]   org.apache.felix:org.osgi.compendium:jar:1.2.0:provided
+[DEBUG]   org.scalamodules:scalamodules-core:jar:1.1-SNAPSHOT:provided
+[DEBUG]   org.ops4j.pax.web:pax-web-bundle:jar:0.6.0:provided
+[DEBUG]   org.ops4j.pax.swissbox:pax-swissbox-extender:jar:0.2.0:provided
+[DEBUG]   com.ibm.icu:icu4j:jar:3.4.4
+[DEBUG]   net.liftweb:lift-core:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG] Skipping disabled repository central
+[DEBUG] lift-util: using locally installed snapshot
+[DEBUG] Adding managed dependencies for unknown:lift-util
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.4
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   org.apache.felix:org.osgi.core:jar:1.2.0:provided
+[DEBUG]   org.apache.felix:org.osgi.compendium:jar:1.2.0:provided
+[DEBUG]   org.scalamodules:scalamodules-core:jar:1.1-SNAPSHOT:provided
+[DEBUG]   org.ops4j.pax.web:pax-web-bundle:jar:0.6.0:provided
+[DEBUG]   org.ops4j.pax.swissbox:pax-swissbox-extender:jar:0.2.0:provided
+[DEBUG]   com.ibm.icu:icu4j:jar:3.4.4
+[DEBUG]     net.liftweb:lift-util:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]       log4j:log4j:jar:1.2.14:compile (selected for compile)
+[DEBUG]       javax.mail:mail:jar:1.4:compile (selected for compile)
+[DEBUG]         javax.activation:activation:jar:1.1:compile (selected for compile)
+[DEBUG]       javax.activation:activation:jar:1.1:compile (selected for compile)
+[DEBUG]       commons-httpclient:commons-httpclient:jar:3.1:compile (selected for compile)
+[DEBUG]         commons-logging:commons-logging:jar:1.0.4:compile (selected for compile)
+[DEBUG]         commons-codec:commons-codec:jar:1.2:compile (selected for compile)
+[DEBUG] Retrieving parent-POM: org.apache.commons:commons-parent:pom:7 for project: commons-fileupload:commons-fileupload:jar:1.2.1 from the repository.
+[DEBUG]       commons-fileupload:commons-fileupload:jar:1.2.1:compile (selected for compile)
+[DEBUG] Retrieving parent-POM: org.apache.commons:commons-parent:pom:9 for project: commons-collections:commons-collections:jar:3.2.1 from the repository.
+[DEBUG]       commons-collections:commons-collections:jar:3.2.1:compile (selected for compile)
+[DEBUG]       commons-codec:commons-codec:jar:1.2:compile (removed - nearer found: 1.3)
+[DEBUG]       commons-codec:commons-codec:jar:1.3:compile (selected for compile)
+[DEBUG] Skipping disabled repository central
+[DEBUG] lift-webkit: using locally installed snapshot
+[DEBUG] Adding managed dependencies for unknown:lift-webkit
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.4
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   org.apache.felix:org.osgi.core:jar:1.2.0:provided
+[DEBUG]   org.apache.felix:org.osgi.compendium:jar:1.2.0:provided
+[DEBUG]   org.scalamodules:scalamodules-core:jar:1.1-SNAPSHOT:provided
+[DEBUG]   org.ops4j.pax.web:pax-web-bundle:jar:0.6.0:provided
+[DEBUG]   org.ops4j.pax.swissbox:pax-swissbox-extender:jar:0.2.0:provided
+[DEBUG]   com.ibm.icu:icu4j:jar:3.4.4
+[DEBUG]     net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG] Skipping disabled repository central
+[DEBUG] lift-actor: using locally installed snapshot
+[DEBUG] Adding managed dependencies for unknown:lift-actor
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.4
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   org.apache.felix:org.osgi.core:jar:1.2.0:provided
+[DEBUG]   org.apache.felix:org.osgi.compendium:jar:1.2.0:provided
+[DEBUG]   org.scalamodules:scalamodules-core:jar:1.1-SNAPSHOT:provided
+[DEBUG]   org.ops4j.pax.web:pax-web-bundle:jar:0.6.0:provided
+[DEBUG]   org.ops4j.pax.swissbox:pax-swissbox-extender:jar:0.2.0:provided
+[DEBUG]   com.ibm.icu:icu4j:jar:3.4.4
+[DEBUG]       net.liftweb:lift-actor:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]         org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG] Skipping disabled repository central
+[DEBUG] lift-mapper: using locally installed snapshot
+[DEBUG] Adding managed dependencies for unknown:lift-mapper
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.4
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   org.apache.felix:org.osgi.core:jar:1.2.0:provided
+[DEBUG]   org.apache.felix:org.osgi.compendium:jar:1.2.0:provided
+[DEBUG]   org.scalamodules:scalamodules-core:jar:1.1-SNAPSHOT:provided
+[DEBUG]   org.ops4j.pax.web:pax-web-bundle:jar:0.6.0:provided
+[DEBUG]   org.ops4j.pax.swissbox:pax-swissbox-extender:jar:0.2.0:provided
+[DEBUG]   com.ibm.icu:icu4j:jar:3.4.4
+[DEBUG]     net.liftweb:lift-mapper:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG] Skipping disabled repository central
+[DEBUG] lift-machine: using locally installed snapshot
+[DEBUG] Adding managed dependencies for unknown:lift-machine
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.4
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   org.apache.felix:org.osgi.core:jar:1.2.0:provided
+[DEBUG]   org.apache.felix:org.osgi.compendium:jar:1.2.0:provided
+[DEBUG]   org.scalamodules:scalamodules-core:jar:1.1-SNAPSHOT:provided
+[DEBUG]   org.ops4j.pax.web:pax-web-bundle:jar:0.6.0:provided
+[DEBUG]   org.ops4j.pax.swissbox:pax-swissbox-extender:jar:0.2.0:provided
+[DEBUG]   com.ibm.icu:icu4j:jar:3.4.4
+[DEBUG]     net.liftweb:lift-machine:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG] Skipping disabled repository central
+[DEBUG] lift-record: using locally installed snapshot
+[DEBUG] Adding managed dependencies for unknown:lift-record
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.4
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   org.apache.felix:org.osgi.core:jar:1.2.0:provided
+[DEBUG]   org.apache.felix:org.osgi.compendium:jar:1.2.0:provided
+[DEBUG]   org.scalamodules:scalamodules-core:jar:1.1-SNAPSHOT:provided
+[DEBUG]   org.ops4j.pax.web:pax-web-bundle:jar:0.6.0:provided
+[DEBUG]   org.ops4j.pax.swissbox:pax-swissbox-extender:jar:0.2.0:provided
+[DEBUG]   com.ibm.icu:icu4j:jar:3.4.4
+[DEBUG]     net.liftweb:lift-record:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG] Skipping disabled repository central
+[DEBUG] lift-textile: using locally installed snapshot
+[DEBUG] Adding managed dependencies for unknown:lift-textile
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.4
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   org.apache.felix:org.osgi.core:jar:1.2.0:provided
+[DEBUG]   org.apache.felix:org.osgi.compendium:jar:1.2.0:provided
+[DEBUG]   org.scalamodules:scalamodules-core:jar:1.1-SNAPSHOT:provided
+[DEBUG]   org.ops4j.pax.web:pax-web-bundle:jar:0.6.0:provided
+[DEBUG]   org.ops4j.pax.swissbox:pax-swissbox-extender:jar:0.2.0:provided
+[DEBUG]   com.ibm.icu:icu4j:jar:3.4.4
+[DEBUG]     net.liftweb:lift-textile:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG] Skipping disabled repository central
+[DEBUG] lift-facebook: using locally installed snapshot
+[DEBUG] Adding managed dependencies for unknown:lift-facebook
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.4
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   org.apache.felix:org.osgi.core:jar:1.2.0:provided
+[DEBUG]   org.apache.felix:org.osgi.compendium:jar:1.2.0:provided
+[DEBUG]   org.scalamodules:scalamodules-core:jar:1.1-SNAPSHOT:provided
+[DEBUG]   org.ops4j.pax.web:pax-web-bundle:jar:0.6.0:provided
+[DEBUG]   org.ops4j.pax.swissbox:pax-swissbox-extender:jar:0.2.0:provided
+[DEBUG]   com.ibm.icu:icu4j:jar:3.4.4
+[DEBUG]     net.liftweb:lift-facebook:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG] Skipping disabled repository central
+[DEBUG] lift-amqp: using locally installed snapshot
+[DEBUG] Adding managed dependencies for unknown:lift-amqp
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.4
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   org.apache.felix:org.osgi.core:jar:1.2.0:provided
+[DEBUG]   org.apache.felix:org.osgi.compendium:jar:1.2.0:provided
+[DEBUG]   org.scalamodules:scalamodules-core:jar:1.1-SNAPSHOT:provided
+[DEBUG]   org.ops4j.pax.web:pax-web-bundle:jar:0.6.0:provided
+[DEBUG]   org.ops4j.pax.swissbox:pax-swissbox-extender:jar:0.2.0:provided
+[DEBUG]   com.ibm.icu:icu4j:jar:3.4.4
+[DEBUG]     net.liftweb:lift-amqp:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]       com.rabbitmq:rabbitmq-client:jar:1.3.0:compile (selected for compile)
+[DEBUG]         commons-cli:commons-cli:jar:1.1:compile (selected for compile)
+[DEBUG]         commons-io:commons-io:jar:1.2:compile (selected for compile)
+[DEBUG]         junit:junit:jar:3.8.2:compile (selected for compile)
+[DEBUG] Skipping disabled repository central
+[DEBUG] lift-xmpp: using locally installed snapshot
+[DEBUG] Adding managed dependencies for unknown:lift-xmpp
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.4
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   org.apache.felix:org.osgi.core:jar:1.2.0:provided
+[DEBUG]   org.apache.felix:org.osgi.compendium:jar:1.2.0:provided
+[DEBUG]   org.scalamodules:scalamodules-core:jar:1.1-SNAPSHOT:provided
+[DEBUG]   org.ops4j.pax.web:pax-web-bundle:jar:0.6.0:provided
+[DEBUG]   org.ops4j.pax.swissbox:pax-swissbox-extender:jar:0.2.0:provided
+[DEBUG]   com.ibm.icu:icu4j:jar:3.4.4
+[DEBUG]     net.liftweb:lift-xmpp:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]       org.igniterealtime.smack:smack:jar:3.1.0:compile (selected for compile)
+[DEBUG]       org.igniterealtime.smack:smackx:jar:3.1.0:compile (selected for compile)
+[DEBUG] Skipping disabled repository central
+[DEBUG] lift-widgets: using locally installed snapshot
+[DEBUG] Adding managed dependencies for unknown:lift-widgets
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.4
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   org.apache.felix:org.osgi.core:jar:1.2.0:provided
+[DEBUG]   org.apache.felix:org.osgi.compendium:jar:1.2.0:provided
+[DEBUG]   org.scalamodules:scalamodules-core:jar:1.1-SNAPSHOT:provided
+[DEBUG]   org.ops4j.pax.web:pax-web-bundle:jar:0.6.0:provided
+[DEBUG]   org.ops4j.pax.swissbox:pax-swissbox-extender:jar:0.2.0:provided
+[DEBUG]   com.ibm.icu:icu4j:jar:3.4.4
+[DEBUG]     net.liftweb:lift-widgets:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]   org.apache.derby:derby:jar:10.4.2.0:compile (selected for compile)
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided (selected for provided)
+[DEBUG]   junit:junit:jar:4.5:test (not setting scope to: compile; local scope test wins)
+[WARNING] 
+	Artifact junit:junit:jar:4.5:test retains local scope 'test' overriding broader scope 'compile'
+	given by a dependency. If this is not intended, modify or remove the local scope.
+
+[DEBUG]   junit:junit:jar:3.8.2:compile (removed - nearer found: 4.5)
+[DEBUG]   junit:junit:jar:4.5:test (selected for test)
+[DEBUG]   org.mortbay.jetty:jetty:jar:6.1.16:test (setting version to: 6.1.16 from range: [6.1.6,))
+[DEBUG] Adding managed dependencies for org.mortbay.jetty:jetty
+[DEBUG]   org.apache.maven:maven-plugin-tools-api:jar:2.0
+[DEBUG]   junit:junit:jar:3.8.2
+[DEBUG]   org.slf4j:jcl104-over-slf4j:jar:1.3.1
+[DEBUG]   org.slf4j:slf4j-simple:jar:1.3.1
+[DEBUG]   org.slf4j:slf4j-api:jar:1.3.1
+[DEBUG]   ant:ant:jar:1.6.5
+[DEBUG]   geronimo-spec:geronimo-spec-jta:jar:1.0.1B-rc4
+[DEBUG]   javax.mail:mail:jar:1.4
+[DEBUG]   javax.activation:activation:jar:1.1
+[DEBUG]   org.mortbay.jetty:jetty:jar:6.1.16:test (selected for test)
+[DEBUG] Adding managed dependencies for org.mortbay.jetty:jetty-util
+[DEBUG]   org.apache.maven:maven-plugin-tools-api:jar:2.0
+[DEBUG]   junit:junit:jar:3.8.2
+[DEBUG]   org.slf4j:jcl104-over-slf4j:jar:1.3.1
+[DEBUG]   org.slf4j:slf4j-simple:jar:1.3.1
+[DEBUG]   org.slf4j:slf4j-api:jar:1.3.1
+[DEBUG]   ant:ant:jar:1.6.5
+[DEBUG]   geronimo-spec:geronimo-spec-jta:jar:1.0.1B-rc4
+[DEBUG]   javax.mail:mail:jar:1.4
+[DEBUG]   javax.activation:activation:jar:1.1
+[DEBUG]     org.mortbay.jetty:jetty-util:jar:6.1.16:test (selected for test)
+[DEBUG]     org.mortbay.jetty:servlet-api:jar:2.5-20081211:test (selected for test)
+[DEBUG]   org.scala-lang:scala-compiler:jar:2.7.3:test (selected for test)
+[DEBUG] lift-core: using locally installed snapshot
+[DEBUG] lift-util: using locally installed snapshot
+[DEBUG] lift-webkit: using locally installed snapshot
+[DEBUG] lift-actor: using locally installed snapshot
+[DEBUG] lift-mapper: using locally installed snapshot
+[DEBUG] lift-machine: using locally installed snapshot
+[DEBUG] lift-record: using locally installed snapshot
+[DEBUG] lift-textile: using locally installed snapshot
+[DEBUG] lift-facebook: using locally installed snapshot
+[DEBUG] lift-amqp: using locally installed snapshot
+[DEBUG] lift-xmpp: using locally installed snapshot
+[DEBUG] lift-widgets: using locally installed snapshot
+[DEBUG] Plugin dependencies for:
+
+org.apache.maven.plugins:maven-compiler-plugin:2.0.2
+
+are:
+
+org.apache.maven:maven-plugin-api:jar:2.0:runtime
+org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime
+org.codehaus.plexus:plexus-compiler-api:jar:1.5.3:runtime
+org.codehaus.plexus:plexus-compiler-manager:jar:1.5.3:runtime
+org.codehaus.plexus:plexus-compiler-javac:jar:1.5.3:runtime
+org.apache.maven:maven-artifact:jar:2.0:runtime
+
+
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:maven-plugin:2.0.2:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven:pom:2.0 for project: org.apache.maven:maven-plugin-api:jar:2.0 from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-plugin-api
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0:runtime (selected for runtime)
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus-compiler:pom:1.5.3 for project: null:plexus-compiler-api:jar:1.5.3 from the repository.
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus-components:pom:1.1.6 for project: null:plexus-compiler:pom:1.5.3 from the repository.
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus:pom:1.0.8 for project: org.codehaus.plexus:plexus-components:pom:1.1.6 from the repository.
+[DEBUG]   org.codehaus.plexus:plexus-compiler-api:jar:1.5.3:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:runtime (selected for runtime)
+[DEBUG]       junit:junit:jar:3.8.1:runtime (selected for runtime)
+[DEBUG]       classworlds:classworlds:jar:1.1-alpha-2:runtime (selected for runtime)
+[DEBUG]   org.codehaus.plexus:plexus-compiler-manager:jar:1.5.3:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus-compilers:pom:1.5.3 for project: null:plexus-compiler-javac:jar:1.5.3 from the repository.
+[DEBUG]   org.codehaus.plexus:plexus-compiler-javac:jar:1.5.3:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-utils:jar:1.0.5:runtime (removed - nearer found: 1.0.4)
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-artifact
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0:runtime (selected for runtime)
+[DEBUG]  The following artifacts were filtered out for plugin: org.apache.maven.plugins:maven-compiler-plugin:2.0.2 because they're already in the core of Maven:
+
+org.apache.maven:maven-plugin-api:jar:2.0:runtime
+org.apache.maven:maven-artifact:jar:2.0:runtime
+
+These will use the artifact files already in the core ClassRealm instead, to allow them to be included in PluginDescriptor.getArtifacts().
+
+
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile' -->
+[DEBUG]   (f) basedir = D:\Scala\Application\github\VinaVidai\vinavidai
+[DEBUG]   (f) buildDirectory = D:\Scala\Application\github\VinaVidai\vinavidai\target
+[DEBUG]   (f) classpathElements = [D:\Scala\Application\github\VinaVidai\vinavidai\target\classes, C:\Users\mohan\.m2\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar, C:\Users\mohan\.m2\repository\org\scala-lang\scala-library\2.7.3\scala-library-2.7.3.jar, C:\Users\mohan\.m2\repository\net\liftweb\lift-core\1.1-SNAPSHOT\lift-core-1.1-SNAPSHOT.jar, C:\Users\mohan\.m2\repository\net\liftweb\lift-util\1.1-SNAPSHOT\lift-util-1.1-SNAPSHOT.jar, C:\Users\mohan\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar, C:\Users\mohan\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar, C:\Users\mohan\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar, C:\Users\mohan\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar, C:\Users\mohan\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar, C:\Users\mohan\.m2\repository\commons-codec\commons-codec\1.3\commons-codec-1.3.jar, C:\Users\mohan\.m2\repository\commons-fileupload\commons-fileupload\1.2.1\commons-fileupload-1.2.1.jar, C:\Users\mohan\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar, C:\Users\mohan\.m2\repository\net\liftweb\lift-webkit\1.1-SNAPSHOT\lift-webkit-1.1-SNAPSHOT.jar, C:\Users\mohan\.m2\repository\net\liftweb\lift-actor\1.1-SNAPSHOT\lift-actor-1.1-SNAPSHOT.jar, C:\Users\mohan\.m2\repository\net\liftweb\lift-mapper\1.1-SNAPSHOT\lift-mapper-1.1-SNAPSHOT.jar, C:\Users\mohan\.m2\repository\net\liftweb\lift-machine\1.1-SNAPSHOT\lift-machine-1.1-SNAPSHOT.jar, C:\Users\mohan\.m2\repository\net\liftweb\lift-record\1.1-SNAPSHOT\lift-record-1.1-SNAPSHOT.jar, C:\Users\mohan\.m2\repository\net\liftweb\lift-textile\1.1-SNAPSHOT\lift-textile-1.1-SNAPSHOT.jar, C:\Users\mohan\.m2\repository\net\liftweb\lift-facebook\1.1-SNAPSHOT\lift-facebook-1.1-SNAPSHOT.jar, C:\Users\mohan\.m2\repository\net\liftweb\lift-amqp\1.1-SNAPSHOT\lift-amqp-1.1-SNAPSHOT.jar, C:\Users\mohan\.m2\repository\com\rabbitmq\rabbitmq-client\1.3.0\rabbitmq-client-1.3.0.jar, C:\Users\mohan\.m2\repository\commons-cli\commons-cli\1.1\commons-cli-1.1.jar, C:\Users\mohan\.m2\repository\commons-io\commons-io\1.2\commons-io-1.2.jar, C:\Users\mohan\.m2\repository\net\liftweb\lift-xmpp\1.1-SNAPSHOT\lift-xmpp-1.1-SNAPSHOT.jar, C:\Users\mohan\.m2\repository\org\igniterealtime\smack\smack\3.1.0\smack-3.1.0.jar, C:\Users\mohan\.m2\repository\org\igniterealtime\smack\smackx\3.1.0\smackx-3.1.0.jar, C:\Users\mohan\.m2\repository\net\liftweb\lift-widgets\1.1-SNAPSHOT\lift-widgets-1.1-SNAPSHOT.jar, C:\Users\mohan\.m2\repository\org\apache\derby\derby\10.4.2.0\derby-10.4.2.0.jar, C:\Users\mohan\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar]
+[DEBUG]   (f) compileSourceRoots = [D:\Scala\Application\github\VinaVidai\vinavidai\src\main\scala]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = D:\Scala\Application\github\VinaVidai\vinavidai\target\classes
+[DEBUG]   (f) outputFileName = vinavidai-1.1-SNAPSHOT
+[DEBUG]   (f) projectArtifact = demo.helloworld:vinavidai:war:1.1-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[INFO] [compiler:compile]
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [D:\Scala\Application\github\VinaVidai\vinavidai\src\main\scala]
+[DEBUG] Classpath: [D:\Scala\Application\github\VinaVidai\vinavidai\target\classes
+ C:\Users\mohan\.m2\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar
+ C:\Users\mohan\.m2\repository\org\scala-lang\scala-library\2.7.3\scala-library-2.7.3.jar
+ C:\Users\mohan\.m2\repository\net\liftweb\lift-core\1.1-SNAPSHOT\lift-core-1.1-SNAPSHOT.jar
+ C:\Users\mohan\.m2\repository\net\liftweb\lift-util\1.1-SNAPSHOT\lift-util-1.1-SNAPSHOT.jar
+ C:\Users\mohan\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar
+ C:\Users\mohan\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar
+ C:\Users\mohan\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+ C:\Users\mohan\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar
+ C:\Users\mohan\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar
+ C:\Users\mohan\.m2\repository\commons-codec\commons-codec\1.3\commons-codec-1.3.jar
+ C:\Users\mohan\.m2\repository\commons-fileupload\commons-fileupload\1.2.1\commons-fileupload-1.2.1.jar
+ C:\Users\mohan\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar
+ C:\Users\mohan\.m2\repository\net\liftweb\lift-webkit\1.1-SNAPSHOT\lift-webkit-1.1-SNAPSHOT.jar
+ C:\Users\mohan\.m2\repository\net\liftweb\lift-actor\1.1-SNAPSHOT\lift-actor-1.1-SNAPSHOT.jar
+ C:\Users\mohan\.m2\repository\net\liftweb\lift-mapper\1.1-SNAPSHOT\lift-mapper-1.1-SNAPSHOT.jar
+ C:\Users\mohan\.m2\repository\net\liftweb\lift-machine\1.1-SNAPSHOT\lift-machine-1.1-SNAPSHOT.jar
+ C:\Users\mohan\.m2\repository\net\liftweb\lift-record\1.1-SNAPSHOT\lift-record-1.1-SNAPSHOT.jar
+ C:\Users\mohan\.m2\repository\net\liftweb\lift-textile\1.1-SNAPSHOT\lift-textile-1.1-SNAPSHOT.jar
+ C:\Users\mohan\.m2\repository\net\liftweb\lift-facebook\1.1-SNAPSHOT\lift-facebook-1.1-SNAPSHOT.jar
+ C:\Users\mohan\.m2\repository\net\liftweb\lift-amqp\1.1-SNAPSHOT\lift-amqp-1.1-SNAPSHOT.jar
+ C:\Users\mohan\.m2\repository\com\rabbitmq\rabbitmq-client\1.3.0\rabbitmq-client-1.3.0.jar
+ C:\Users\mohan\.m2\repository\commons-cli\commons-cli\1.1\commons-cli-1.1.jar
+ C:\Users\mohan\.m2\repository\commons-io\commons-io\1.2\commons-io-1.2.jar
+ C:\Users\mohan\.m2\repository\net\liftweb\lift-xmpp\1.1-SNAPSHOT\lift-xmpp-1.1-SNAPSHOT.jar
+ C:\Users\mohan\.m2\repository\org\igniterealtime\smack\smack\3.1.0\smack-3.1.0.jar
+ C:\Users\mohan\.m2\repository\org\igniterealtime\smack\smackx\3.1.0\smackx-3.1.0.jar
+ C:\Users\mohan\.m2\repository\net\liftweb\lift-widgets\1.1-SNAPSHOT\lift-widgets-1.1-SNAPSHOT.jar
+ C:\Users\mohan\.m2\repository\org\apache\derby\derby\10.4.2.0\derby-10.4.2.0.jar
+ C:\Users\mohan\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar]
+[DEBUG] Output directory: D:\Scala\Application\github\VinaVidai\vinavidai\target\classes
+[INFO] Nothing to compile - all classes are up to date
+[DEBUG] demo.helloworld:vinavidai:war:1.1-SNAPSHOT (selected for null)
+[DEBUG]   mysql:mysql-connector-java:jar:5.1.6:compile (selected for compile)
+[DEBUG]   org.scala-lang:scala-library:jar:2.7.3:compile (selected for compile)
+[DEBUG]   net.liftweb:lift-core:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]     net.liftweb:lift-util:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]       log4j:log4j:jar:1.2.14:compile (selected for compile)
+[DEBUG]       javax.mail:mail:jar:1.4:compile (selected for compile)
+[DEBUG]         javax.activation:activation:jar:1.1:compile (selected for compile)
+[DEBUG]       javax.activation:activation:jar:1.1:compile (selected for compile)
+[DEBUG]       commons-httpclient:commons-httpclient:jar:3.1:compile (selected for compile)
+[DEBUG]         commons-logging:commons-logging:jar:1.0.4:compile (selected for compile)
+[DEBUG]         commons-codec:commons-codec:jar:1.2:compile (selected for compile)
+[DEBUG]       commons-fileupload:commons-fileupload:jar:1.2.1:compile (selected for compile)
+[DEBUG]       commons-collections:commons-collections:jar:3.2.1:compile (selected for compile)
+[DEBUG]       commons-codec:commons-codec:jar:1.2:compile (removed - nearer found: 1.3)
+[DEBUG]       commons-codec:commons-codec:jar:1.3:compile (selected for compile)
+[DEBUG]     net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       net.liftweb:lift-actor:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]         org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]     net.liftweb:lift-mapper:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]     net.liftweb:lift-machine:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]     net.liftweb:lift-record:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]     net.liftweb:lift-textile:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]     net.liftweb:lift-facebook:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]     net.liftweb:lift-amqp:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]       com.rabbitmq:rabbitmq-client:jar:1.3.0:compile (selected for compile)
+[DEBUG]         commons-cli:commons-cli:jar:1.1:compile (selected for compile)
+[DEBUG]         commons-io:commons-io:jar:1.2:compile (selected for compile)
+[DEBUG]         junit:junit:jar:3.8.2:compile (selected for compile)
+[DEBUG]     net.liftweb:lift-xmpp:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]       org.igniterealtime.smack:smack:jar:3.1.0:compile (selected for compile)
+[DEBUG]       org.igniterealtime.smack:smackx:jar:3.1.0:compile (selected for compile)
+[DEBUG]     net.liftweb:lift-widgets:jar:1.1-SNAPSHOT:compile (selected for compile)
+[DEBUG]       org.scala-lang:scala-library:jar:2.7.4:compile (removed - nearer found: 2.7.3)
+[DEBUG]   org.apache.derby:derby:jar:10.4.2.0:compile (selected for compile)
+[DEBUG]   javax.servlet:servlet-api:jar:2.5:provided (selected for provided)
+[DEBUG]   junit:junit:jar:4.5:test (not setting scope to: compile; local scope test wins)
+[DEBUG]   junit:junit:jar:3.8.2:compile (removed - nearer found: 4.5)
+[DEBUG]   junit:junit:jar:4.5:test (selected for test)
+[DEBUG]   org.mortbay.jetty:jetty:jar:6.1.16:test (selected for test)
+[DEBUG]     org.mortbay.jetty:jetty-util:jar:6.1.16:test (selected for test)
+[DEBUG]     org.mortbay.jetty:servlet-api:jar:2.5-20081211:test (selected for test)
+[DEBUG]   org.scala-lang:scala-compiler:jar:2.7.3:test (selected for test)
+[DEBUG] lift-util: using locally installed snapshot
+[DEBUG] lift-webkit: using locally installed snapshot
+[DEBUG] lift-actor: using locally installed snapshot
+[DEBUG] lift-mapper: using locally installed snapshot
+[DEBUG] lift-machine: using locally installed snapshot
+[DEBUG] lift-record: using locally installed snapshot
+[DEBUG] lift-textile: using locally installed snapshot
+[DEBUG] lift-facebook: using locally installed snapshot
+[DEBUG] lift-amqp: using locally installed snapshot
+[DEBUG] lift-xmpp: using locally installed snapshot
+[DEBUG] lift-widgets: using locally installed snapshot
+[DEBUG] Plugin dependencies for:
+
+org.scala-tools:maven-scala-plugin:2.11-SNAPSHOT
+
+are:
+
+org.apache.maven:maven-plugin-api:jar:2.0.9:runtime
+org.apache.maven:maven-project:jar:2.0.9:runtime
+org.apache.maven.reporting:maven-reporting-impl:jar:2.0.4:runtime
+org.apache.maven.reporting:maven-reporting-api:jar:2.0.4:runtime
+org.apache.maven.doxia:doxia-site-renderer:jar:1.0-alpha-8:runtime
+jline:jline:jar:0.9.93:runtime
+org.apache.maven.shared:maven-dependency-analyzer:jar:1.1:runtime
+org.apache.maven.shared:maven-dependency-tree:jar:1.2:runtime
+org.apache.maven.shared:maven-common-artifact-filters:jar:1.0:runtime
+org.codehaus.plexus:plexus-utils:jar:1.1:runtime
+
+
+[DEBUG] org.scala-tools:maven-scala-plugin:maven-plugin:2.11-SNAPSHOT:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven:pom:2.0.9 for project: null:maven-plugin-api:jar:null from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent:pom:8 for project: null:maven:pom:2.0.9 from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-plugin-api
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-project
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-settings
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-settings:jar:2.0.9:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-model
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.5.1:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:runtime (selected for runtime)
+[DEBUG]         junit:junit:jar:3.8.1:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.1)
+[DEBUG]         classworlds:classworlds:jar:1.1-alpha-2:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-profile
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-profile:jar:2.0.9:runtime (selected for runtime)
+[DEBUG]     org.apache.maven:maven-model:jar:2.0.9:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-artifact-manager
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-artifact-manager:jar:2.0.9:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-repository-metadata
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-artifact
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.9:runtime (selected for runtime)
+[DEBUG]       org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.1)
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-plugin-registry
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-plugin-registry:jar:2.0.9:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-utils:jar:1.5.1:runtime (selected for runtime)
+[DEBUG]     org.apache.maven:maven-artifact:jar:2.0.9:runtime (selected for runtime)
+[DEBUG]     org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:runtime (selected for runtime)
+[DEBUG]       junit:junit:jar:3.8.1:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.1)
+[DEBUG]       classworlds:classworlds:jar:1.1-alpha-2:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven.reporting:maven-reporting:pom:2.0.4 for project: null:maven-reporting-impl:jar:2.0.4 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven:pom:2.0.4 for project: org.apache.maven.reporting:maven-reporting:pom:2.0.4 from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-reporting-impl
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-7
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-alpha-6
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-7
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-6
+[DEBUG]   org.apache.maven.reporting:maven-reporting-impl:jar:2.0.4:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-project
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-7
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-alpha-6
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-7
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-6
+[DEBUG]     org.apache.maven:maven-project:jar:2.0.4:runtime (removed - nearer found: 2.0.9)
+[DEBUG]     commons-validator:commons-validator:jar:1.2.0:runtime (selected for runtime)
+[DEBUG]       commons-beanutils:commons-beanutils:jar:1.7.0:runtime (selected for runtime)
+[DEBUG]         commons-logging:commons-logging:jar:1.0.3:runtime (selected for runtime)
+[DEBUG]       commons-digester:commons-digester:jar:1.6:runtime (selected for runtime)
+[DEBUG]         commons-beanutils:commons-beanutils:jar:1.6:runtime (removed - nearer found: 1.7.0)
+[DEBUG]         commons-logging:commons-logging:jar:1.0:runtime (removed - nearer found: 1.0.3)
+[DEBUG]         commons-collections:commons-collections:jar:2.1:runtime (selected for runtime)
+[DEBUG]         xml-apis:xml-apis:jar:1.0.b2:runtime (selected for runtime)
+[DEBUG]       commons-logging:commons-logging:jar:1.0.3:runtime (removed - nearer found: 1.0.4)
+[DEBUG]       commons-logging:commons-logging:jar:1.0.4:runtime (selected for runtime)
+[DEBUG]       oro:oro:jar:2.0.8:runtime (selected for runtime)
+[DEBUG] While downloading xml-apis:xml-apis:2.0.2
+  This artifact has been relocated to xml-apis:xml-apis:1.0.b2.
+
+
+[DEBUG]       xml-apis:xml-apis:jar:1.0.b2:runtime (selected for runtime)
+[DEBUG]     org.apache.maven.doxia:doxia-core:jar:1.0-alpha-7:runtime (selected for runtime)
+[DEBUG]       oro:oro:jar:2.0.7:runtime (removed - nearer found: 2.0.8)
+[DEBUG]       org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.1)
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-plugin-api
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-7
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-alpha-6
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-7
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-6
+[DEBUG]     org.apache.maven:maven-plugin-api:jar:2.0.4:runtime (removed - nearer found: 2.0.9)
+[DEBUG]     oro:oro:jar:2.0.8:runtime (removed - nearer found: 2.0.7)
+[DEBUG]     oro:oro:jar:2.0.7:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-reporting-api
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-7
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-alpha-6
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-7
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-6
+[DEBUG]     org.apache.maven.reporting:maven-reporting-api:jar:2.0.4:runtime (selected for runtime)
+[DEBUG]     org.apache.maven.doxia:doxia-site-renderer:jar:1.0-alpha-7:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus-components:pom:1.1.4 for project: null:plexus-i18n:jar:1.0-beta-6 from the repository.
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:runtime (removed - nearer found: 1.0-alpha-9-stable-1)
+[DEBUG]       org.codehaus.plexus:plexus-velocity:jar:1.1.2:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-7:runtime (removed - nearer found: 1.0-alpha-9-stable-1)
+[DEBUG]         plexus:plexus-utils:jar:1.0.2:runtime (selected for runtime)
+[DEBUG]         commons-collections:commons-collections:jar:2.0:runtime (removed - nearer found: 2.1)
+[DEBUG]         commons-logging:commons-logging-api:jar:1.0.4:runtime (selected for runtime)
+[DEBUG]         velocity:velocity:jar:1.4:runtime (selected for runtime)
+[DEBUG]           velocity:velocity-dep:jar:1.4:runtime (selected for runtime)
+[DEBUG]       org.apache.maven.doxia:doxia-decoration-model:jar:1.0-alpha-7:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.1)
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.4:runtime (selected for runtime)
+[DEBUG]     org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven.doxia:doxia:pom:1.0-alpha-8 for project: null:doxia-site-renderer:jar:1.0-alpha-8 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent:pom:1 for project: org.apache.maven.doxia:doxia:pom:1.0-alpha-8 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache:apache:pom:1 for project: org.apache.maven:maven-parent:pom:1 from the repository.
+[DEBUG]   org.apache.maven.doxia:doxia-site-renderer:jar:1.0-alpha-7:runtime (removed - nearer found: 1.0-alpha-8)
+[DEBUG]   org.apache.maven.doxia:doxia-site-renderer:jar:1.0-alpha-8:runtime (selected for runtime)
+[DEBUG]     org.apache.maven.doxia:doxia-core:jar:1.0-alpha-8:runtime (removed - nearer found: 1.0-alpha-7)
+[DEBUG]     org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:runtime (removed - nearer found: 1.0-alpha-9-stable-1)
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus-components:pom:1.1.5 for project: null:plexus-velocity:jar:1.1.3 from the repository.
+[DEBUG] Retrieving parent-POM: org.codehaus.plexus:plexus:pom:1.0.5 for project: org.codehaus.plexus:plexus-components:pom:1.1.5 from the repository.
+[DEBUG]     org.codehaus.plexus:plexus-velocity:jar:1.1.3:runtime (selected for runtime)
+[DEBUG]       commons-collections:commons-collections:jar:2.1:runtime (removed - nearer found: 2.0)
+[DEBUG]       commons-collections:commons-collections:jar:2.0:runtime (selected for runtime)
+[DEBUG]       velocity:velocity:jar:1.4:runtime (selected for runtime)
+[DEBUG]         velocity:velocity-dep:jar:1.4:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:runtime (removed - nearer found: 1.0-alpha-9-stable-1)
+[DEBUG]     org.apache.maven.doxia:doxia-decoration-model:jar:1.0-alpha-8:runtime (selected for runtime)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.1)
+[DEBUG]   jline:jline:jar:0.9.93:runtime (selected for runtime)
+[DEBUG]     junit:junit:jar:3.8.1:runtime (selected for runtime)
+[DEBUG]   org.apache.maven.shared:maven-dependency-analyzer:jar:1.1:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: asm:asm-parent:pom:3.0 for project: null:asm:jar:3.0 from the repository.
+[DEBUG] Adding managed dependencies for unknown:asm
+[DEBUG]   asm:asm:jar:3.0
+[DEBUG]   asm:asm-tree:jar:3.0
+[DEBUG]   asm:asm-analysis:jar:3.0
+[DEBUG]   asm:asm-commons:jar:3.0
+[DEBUG]   asm:asm-util:jar:3.0
+[DEBUG]   asm:asm-xml:jar:3.0
+[DEBUG]     asm:asm:jar:3.0:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven:pom:2.0.5 for project: null:maven-project:jar:2.0.5 from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-project
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-project:jar:2.0.5:runtime (removed - nearer found: 2.0.9)
+[DEBUG] Adding managed dependencies for unknown:maven-model
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-model:jar:2.0.5:runtime (removed - nearer found: 2.0.9)
+[DEBUG] Adding managed dependencies for unknown:maven-artifact
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-artifact:jar:2.0.5:runtime (removed - nearer found: 2.0.9)
+[DEBUG] Retrieving parent-POM: org.apache.maven.shared:maven-shared-components:pom:9 for project: org.apache.maven.shared:maven-dependency-tree:jar:1.2 from the repository.
+[DEBUG] Adding managed dependencies for org.apache.maven.shared:maven-dependency-tree
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   org.apache.maven.shared:maven-dependency-tree:jar:1.2:runtime (selected for runtime)
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven:pom:2.0.8 for project: null:maven-project:jar:null from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent:pom:6 for project: null:maven:pom:2.0.8 from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-project
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-error-diagnostics:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.8
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.8
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.6
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-project:jar:2.0.8:runtime (removed - nearer found: 2.0.9)
+[DEBUG] Retrieving parent-POM: org.apache.maven.shared:maven-shared-components:pom:8 for project: null:maven-common-artifact-filters:jar:1.0 from the repository.
+[DEBUG] Retrieving parent-POM: org.apache.maven:maven-parent:pom:7 for project: org.apache.maven.shared:maven-shared-components:pom:8 from the repository.
+[DEBUG]   org.apache.maven.shared:maven-common-artifact-filters:jar:1.0:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-artifact
+[DEBUG]   org.apache.maven:maven-plugin-descriptor:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-error-diagnostics:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-model:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-project:jar:2.0.8
+[DEBUG]   org.apache.maven.reporting:maven-reporting-api:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-repository-metadata:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-artifact:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-artifact-manager:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-artifact-test:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-settings:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-profile:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-plugin-registry:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-plugin-api:jar:2.0.8
+[DEBUG]   org.apache.maven:maven-monitor:jar:2.0.8
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.4.6
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-beta-2
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2
+[DEBUG]   easymock:easymock:jar:1.2_Java1.3:test
+[DEBUG]   classworlds:classworlds:jar:1.1
+[DEBUG]     org.apache.maven:maven-artifact:jar:2.0.8:runtime (removed - nearer found: 2.0.9)
+[DEBUG]     org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9:runtime (removed - nearer found: 1.0-alpha-9-stable-1)
+[DEBUG] Retrieving parent-POM: org.apache.maven.shared:maven-shared-components:pom:7 for project: null:maven-plugin-testing-harness:jar:1.1 from the repository.
+[DEBUG]     org.apache.maven.shared:maven-plugin-testing-harness:jar:1.1:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-project
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]       org.apache.maven:maven-project:jar:2.0:runtime (removed - nearer found: 2.0.9)
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-core
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]       org.apache.maven:maven-core:jar:2.0:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for unknown:maven-settings
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]         org.apache.maven:maven-settings:jar:2.0:runtime (removed - nearer found: 2.0.9)
+[DEBUG]         org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5:runtime (selected for runtime)
+[DEBUG]           org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.1)
+[DEBUG]           org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5:runtime (removed - nearer found: 1.0-beta-2)
+[DEBUG] Adding managed dependencies for unknown:maven-plugin-parameter-documenter
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]         org.apache.maven:maven-plugin-parameter-documenter:jar:2.0:runtime (selected for runtime)
+[DEBUG]           org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.1)
+[DEBUG]           org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:runtime (removed - nearer found: 1.0-alpha-9-stable-1)
+[DEBUG]         org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5:runtime (selected for runtime)
+[DEBUG]           org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.1)
+[DEBUG]           org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5:runtime (removed - nearer found: 1.0-beta-2)
+[DEBUG] Retrieving parent-POM: org.apache.maven.reporting:maven-reporting:pom:2.0 for project: null:maven-reporting-api:jar:2.0 from the repository.
+[DEBUG] Adding managed dependencies for unknown:maven-reporting-api
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]         org.apache.maven.reporting:maven-reporting-api:jar:2.0:runtime (removed - nearer found: 2.0.4)
+[DEBUG] Adding managed dependencies for unknown:maven-profile
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]         org.apache.maven:maven-profile:jar:2.0:runtime (removed - nearer found: 2.0.9)
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-model
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]         org.apache.maven:maven-model:jar:2.0:runtime (removed - nearer found: 2.0.9)
+[DEBUG]         org.apache.maven:maven-artifact:jar:2.0:runtime (removed - nearer found: 2.0.9)
+[DEBUG]         org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5:runtime (removed - nearer found: 1.0-beta-2)
+[DEBUG]         org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:runtime (removed - nearer found: 1.0-alpha-9-stable-1)
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-repository-metadata
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]         org.apache.maven:maven-repository-metadata:jar:2.0:runtime (removed - nearer found: 2.0.9)
+[DEBUG] Adding managed dependencies for unknown:maven-error-diagnostics
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]         org.apache.maven:maven-error-diagnostics:jar:2.0:runtime (selected for runtime)
+[DEBUG]           org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:runtime (removed - nearer found: 1.0-alpha-9-stable-1)
+[DEBUG]         org.apache.maven:maven-project:jar:2.0:runtime (removed - nearer found: 2.0.9)
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-plugin-registry
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]         org.apache.maven:maven-plugin-registry:jar:2.0:runtime (removed - nearer found: 2.0.9)
+[DEBUG]         commons-cli:commons-cli:jar:1.0:runtime (selected for runtime)
+[DEBUG]         org.apache.maven:maven-plugin-api:jar:2.0:runtime (removed - nearer found: 2.0.9)
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-plugin-descriptor
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]         org.apache.maven:maven-plugin-descriptor:jar:2.0:runtime (selected for runtime)
+[DEBUG]           org.apache.maven:maven-plugin-api:jar:2.0:runtime (removed - nearer found: 2.0.9)
+[DEBUG]           org.apache.maven:maven-artifact:jar:2.0:runtime (removed - nearer found: 2.0.9)
+[DEBUG]           org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:runtime (removed - nearer found: 1.0-alpha-9-stable-1)
+[DEBUG]         org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:runtime (selected for runtime)
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-artifact-manager
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]         org.apache.maven:maven-artifact-manager:jar:2.0:runtime (removed - nearer found: 2.0.9)
+[DEBUG] Adding managed dependencies for org.apache.maven:maven-monitor
+[DEBUG]   org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5
+[DEBUG]   org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5
+[DEBUG]         org.apache.maven:maven-monitor:jar:2.0:runtime (selected for runtime)
+[DEBUG]         org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5:runtime (selected for runtime)
+[DEBUG]           com.jcraft:jsch:jar:0.1.23:runtime (selected for runtime)
+[DEBUG]           org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.1)
+[DEBUG]           org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5:runtime (removed - nearer found: 1.0-beta-2)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:runtime (removed - nearer found: 1.5.1)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.4.2:runtime (removed - nearer found: 1.5.1)
+[DEBUG]       org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7:runtime (selected for runtime)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.2:runtime (removed - nearer found: 1.5.1)
+[DEBUG]         org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:runtime (removed - nearer found: 1.0-alpha-9-stable-1)
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.5.1:runtime (removed - nearer found: 1.1)
+[DEBUG]   org.codehaus.plexus:plexus-utils:jar:1.1:runtime (selected for runtime)
+[DEBUG]  The following artifacts were filtered out for plugin: org.scala-tools:maven-scala-plugin:2.11-SNAPSHOT because they're already in the core of Maven:
+
+org.apache.maven:maven-plugin-api:jar:2.0.9:runtime
+org.apache.maven:maven-project:jar:2.0.9:runtime
+org.apache.maven.reporting:maven-reporting-api:jar:2.0.4:runtime
+
+These will use the artifact files already in the core ClassRealm instead, to allow them to be included in PluginDescriptor.getArtifacts().
+
+
+[DEBUG] Configuring mojo 'org.scala-tools:maven-scala-plugin:2.11-SNAPSHOT:compile' -->
+[DEBUG]   (f) checkMultipleScalaVersions = true
+[DEBUG]   (f) displayCmd = true
+[DEBUG]   (f) failOnMultipleScalaVersions = false
+[DEBUG]   (f) fork = true
+[DEBUG]   (f) localRepo = Repository[local|file://C:\Users\mohan\.m2\repository]
+[DEBUG]   (f) localRepository = Repository[local|file://C:\Users\mohan\.m2\repository]
+[DEBUG]   (f) outputDir = D:\Scala\Application\github\VinaVidai\vinavidai\target\classes
+[DEBUG]   (f) project = MavenProject: demo.helloworld:vinavidai:1.1-SNAPSHOT @ D:\Scala\Application\github\VinaVidai\vinavidai\pom.xml
+[DEBUG]   (f) remoteRepos = [Repository[central|http://repo1.maven.org/maven2]]
+[DEBUG]   (f) scalaClassName = scala.tools.nsc.Main
+[DEBUG]   (f) scalaVersion = 2.7.3
+[DEBUG]   (f) sendJavaToScalac = true
+[DEBUG]   (f) sourceDir = D:\Scala\Application\github\VinaVidai\vinavidai\src\main\scala\..\scala
+[DEBUG] -- end configuration --
+[INFO] [scala:compile {execution: default}]
+[INFO] Checking for multiple versions of scala
+[DEBUG] Dependency tree resolution listener events:
+[DEBUG] testArtifact: artifact=demo.helloworld:vinavidai:war:1.1-SNAPSHOT
+[DEBUG] includeArtifact: artifact=demo.helloworld:vinavidai:war:1.1-SNAPSHOT
+[DEBUG] startProcessChildren: artifact=demo.helloworld:vinavidai:war:1.1-SNAPSHOT
+[DEBUG]   testArtifact: artifact=mysql:mysql-connector-java:jar:5.1.6:compile
+[DEBUG]   includeArtifact: artifact=mysql:mysql-connector-java:jar:5.1.6:compile
+[DEBUG]   startProcessChildren: artifact=mysql:mysql-connector-java:jar:5.1.6:compile
+[DEBUG]   endProcessChildren: artifact=mysql:mysql-connector-java:jar:5.1.6:compile
+[DEBUG]   testArtifact: artifact=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]   includeArtifact: artifact=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]   startProcessChildren: artifact=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]   endProcessChildren: artifact=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]   testArtifact: artifact=net.liftweb:lift-core:jar:1.1-SNAPSHOT:compile
+[DEBUG]   includeArtifact: artifact=net.liftweb:lift-core:jar:1.1-SNAPSHOT:compile
+[DEBUG]   startProcessChildren: artifact=net.liftweb:lift-core:jar:1.1-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=net.liftweb:lift-util:jar:1.1-SNAPSHOT:compile
+[DEBUG]     includeArtifact: artifact=net.liftweb:lift-util:jar:1.1-SNAPSHOT:compile
+[DEBUG]     startProcessChildren: artifact=net.liftweb:lift-util:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=org.scala-lang:scala-library:jar:2.7.4:compile
+[DEBUG]       omitForNearer: omitted=org.scala-lang:scala-library:jar:2.7.4:compile kept=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]       testArtifact: artifact=log4j:log4j:jar:1.2.14:compile
+[DEBUG]       includeArtifact: artifact=log4j:log4j:jar:1.2.14:compile
+[DEBUG]       startProcessChildren: artifact=log4j:log4j:jar:1.2.14:compile
+[DEBUG]       endProcessChildren: artifact=log4j:log4j:jar:1.2.14:compile
+[DEBUG]       testArtifact: artifact=javax.mail:mail:jar:1.4:compile
+[DEBUG]       includeArtifact: artifact=javax.mail:mail:jar:1.4:compile
+[DEBUG]       startProcessChildren: artifact=javax.mail:mail:jar:1.4:compile
+[DEBUG]         testArtifact: artifact=javax.activation:activation:jar:1.1:compile
+[DEBUG]         includeArtifact: artifact=javax.activation:activation:jar:1.1:compile
+[DEBUG]         startProcessChildren: artifact=javax.activation:activation:jar:1.1:compile
+[DEBUG]         endProcessChildren: artifact=javax.activation:activation:jar:1.1:compile
+[DEBUG]       endProcessChildren: artifact=javax.mail:mail:jar:1.4:compile
+[DEBUG]       testArtifact: artifact=javax.activation:activation:jar:1.1:compile
+[DEBUG]       omitForNearer: omitted=javax.activation:activation:jar:1.1:compile kept=javax.activation:activation:jar:1.1:compile
+[DEBUG]       includeArtifact: artifact=javax.activation:activation:jar:1.1:compile
+[DEBUG]       startProcessChildren: artifact=javax.activation:activation:jar:1.1:compile
+[DEBUG]       endProcessChildren: artifact=javax.activation:activation:jar:1.1:compile
+[DEBUG]       testArtifact: artifact=commons-httpclient:commons-httpclient:jar:3.1:compile
+[DEBUG]       includeArtifact: artifact=commons-httpclient:commons-httpclient:jar:3.1:compile
+[DEBUG]       startProcessChildren: artifact=commons-httpclient:commons-httpclient:jar:3.1:compile
+[DEBUG]         testArtifact: artifact=commons-logging:commons-logging:jar:1.0.4:compile
+[DEBUG]         includeArtifact: artifact=commons-logging:commons-logging:jar:1.0.4:compile
+[DEBUG]         startProcessChildren: artifact=commons-logging:commons-logging:jar:1.0.4:compile
+[DEBUG]         endProcessChildren: artifact=commons-logging:commons-logging:jar:1.0.4:compile
+[DEBUG]         testArtifact: artifact=commons-codec:commons-codec:jar:1.2:compile
+[DEBUG]         includeArtifact: artifact=commons-codec:commons-codec:jar:1.2:compile
+[DEBUG]         startProcessChildren: artifact=commons-codec:commons-codec:jar:1.2:compile
+[DEBUG]         endProcessChildren: artifact=commons-codec:commons-codec:jar:1.2:compile
+[DEBUG]       endProcessChildren: artifact=commons-httpclient:commons-httpclient:jar:3.1:compile
+[DEBUG]       testArtifact: artifact=commons-fileupload:commons-fileupload:jar:1.2.1:compile
+[DEBUG]       includeArtifact: artifact=commons-fileupload:commons-fileupload:jar:1.2.1:compile
+[DEBUG]       startProcessChildren: artifact=commons-fileupload:commons-fileupload:jar:1.2.1:compile
+[DEBUG]       endProcessChildren: artifact=commons-fileupload:commons-fileupload:jar:1.2.1:compile
+[DEBUG]       testArtifact: artifact=commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]       includeArtifact: artifact=commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]       startProcessChildren: artifact=commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]       endProcessChildren: artifact=commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]       testArtifact: artifact=commons-codec:commons-codec:jar:1.3:compile
+[DEBUG]       omitForNearer: omitted=commons-codec:commons-codec:jar:1.2:compile kept=commons-codec:commons-codec:jar:1.3:compile
+[DEBUG]       includeArtifact: artifact=commons-codec:commons-codec:jar:1.3:compile
+[DEBUG]       startProcessChildren: artifact=commons-codec:commons-codec:jar:1.3:compile
+[DEBUG]       endProcessChildren: artifact=commons-codec:commons-codec:jar:1.3:compile
+[DEBUG]     endProcessChildren: artifact=net.liftweb:lift-util:jar:1.1-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]     includeArtifact: artifact=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]     startProcessChildren: artifact=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=net.liftweb:lift-util:jar:1.1-SNAPSHOT:compile
+[DEBUG]       omitForNearer: omitted=net.liftweb:lift-util:jar:1.1-SNAPSHOT:compile kept=net.liftweb:lift-util:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=net.liftweb:lift-actor:jar:1.1-SNAPSHOT:compile
+[DEBUG]       includeArtifact: artifact=net.liftweb:lift-actor:jar:1.1-SNAPSHOT:compile
+[DEBUG]       startProcessChildren: artifact=net.liftweb:lift-actor:jar:1.1-SNAPSHOT:compile
+[DEBUG]         testArtifact: artifact=org.scala-lang:scala-library:jar:2.7.4:compile
+[DEBUG]         omitForNearer: omitted=org.scala-lang:scala-library:jar:2.7.4:compile kept=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]         testArtifact: artifact=net.liftweb:lift-util:jar:1.1-SNAPSHOT:compile
+[DEBUG]         omitForNearer: omitted=net.liftweb:lift-util:jar:1.1-SNAPSHOT:compile kept=net.liftweb:lift-util:jar:1.1-SNAPSHOT:compile
+[DEBUG]       endProcessChildren: artifact=net.liftweb:lift-actor:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=org.scala-lang:scala-library:jar:2.7.4:compile
+[DEBUG]       omitForNearer: omitted=org.scala-lang:scala-library:jar:2.7.4:compile kept=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]       testArtifact: artifact=log4j:log4j:jar:1.2.14:compile
+[DEBUG]       omitForNearer: omitted=log4j:log4j:jar:1.2.14:compile kept=log4j:log4j:jar:1.2.14:compile
+[DEBUG]       testArtifact: artifact=javax.mail:mail:jar:1.4:compile
+[DEBUG]       omitForNearer: omitted=javax.mail:mail:jar:1.4:compile kept=javax.mail:mail:jar:1.4:compile
+[DEBUG]       testArtifact: artifact=javax.activation:activation:jar:1.1:compile
+[DEBUG]       omitForNearer: omitted=javax.activation:activation:jar:1.1:compile kept=javax.activation:activation:jar:1.1:compile
+[DEBUG]       testArtifact: artifact=commons-httpclient:commons-httpclient:jar:3.1:compile
+[DEBUG]       omitForNearer: omitted=commons-httpclient:commons-httpclient:jar:3.1:compile kept=commons-httpclient:commons-httpclient:jar:3.1:compile
+[DEBUG]       testArtifact: artifact=commons-fileupload:commons-fileupload:jar:1.2.1:compile
+[DEBUG]       omitForNearer: omitted=commons-fileupload:commons-fileupload:jar:1.2.1:compile kept=commons-fileupload:commons-fileupload:jar:1.2.1:compile
+[DEBUG]       testArtifact: artifact=commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]       omitForNearer: omitted=commons-collections:commons-collections:jar:3.2.1:compile kept=commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]       testArtifact: artifact=commons-codec:commons-codec:jar:1.3:compile
+[DEBUG]       omitForNearer: omitted=commons-codec:commons-codec:jar:1.3:compile kept=commons-codec:commons-codec:jar:1.3:compile
+[DEBUG]     endProcessChildren: artifact=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=net.liftweb:lift-mapper:jar:1.1-SNAPSHOT:compile
+[DEBUG]     includeArtifact: artifact=net.liftweb:lift-mapper:jar:1.1-SNAPSHOT:compile
+[DEBUG]     startProcessChildren: artifact=net.liftweb:lift-mapper:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=org.scala-lang:scala-library:jar:2.7.4:compile
+[DEBUG]       omitForNearer: omitted=org.scala-lang:scala-library:jar:2.7.4:compile kept=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]       testArtifact: artifact=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]       omitForNearer: omitted=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile kept=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]     endProcessChildren: artifact=net.liftweb:lift-mapper:jar:1.1-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=net.liftweb:lift-machine:jar:1.1-SNAPSHOT:compile
+[DEBUG]     includeArtifact: artifact=net.liftweb:lift-machine:jar:1.1-SNAPSHOT:compile
+[DEBUG]     startProcessChildren: artifact=net.liftweb:lift-machine:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=org.scala-lang:scala-library:jar:2.7.4:compile
+[DEBUG]       omitForNearer: omitted=org.scala-lang:scala-library:jar:2.7.4:compile kept=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]       testArtifact: artifact=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]       omitForNearer: omitted=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile kept=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=net.liftweb:lift-mapper:jar:1.1-SNAPSHOT:compile
+[DEBUG]       omitForNearer: omitted=net.liftweb:lift-mapper:jar:1.1-SNAPSHOT:compile kept=net.liftweb:lift-mapper:jar:1.1-SNAPSHOT:compile
+[DEBUG]     endProcessChildren: artifact=net.liftweb:lift-machine:jar:1.1-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=net.liftweb:lift-record:jar:1.1-SNAPSHOT:compile
+[DEBUG]     includeArtifact: artifact=net.liftweb:lift-record:jar:1.1-SNAPSHOT:compile
+[DEBUG]     startProcessChildren: artifact=net.liftweb:lift-record:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=org.scala-lang:scala-library:jar:2.7.4:compile
+[DEBUG]       omitForNearer: omitted=org.scala-lang:scala-library:jar:2.7.4:compile kept=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]       testArtifact: artifact=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]       omitForNearer: omitted=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile kept=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=net.liftweb:lift-mapper:jar:1.1-SNAPSHOT:compile
+[DEBUG]       omitForNearer: omitted=net.liftweb:lift-mapper:jar:1.1-SNAPSHOT:compile kept=net.liftweb:lift-mapper:jar:1.1-SNAPSHOT:compile
+[DEBUG]     endProcessChildren: artifact=net.liftweb:lift-record:jar:1.1-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=net.liftweb:lift-textile:jar:1.1-SNAPSHOT:compile
+[DEBUG]     includeArtifact: artifact=net.liftweb:lift-textile:jar:1.1-SNAPSHOT:compile
+[DEBUG]     startProcessChildren: artifact=net.liftweb:lift-textile:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=org.scala-lang:scala-library:jar:2.7.4:compile
+[DEBUG]       omitForNearer: omitted=org.scala-lang:scala-library:jar:2.7.4:compile kept=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]     endProcessChildren: artifact=net.liftweb:lift-textile:jar:1.1-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=net.liftweb:lift-facebook:jar:1.1-SNAPSHOT:compile
+[DEBUG]     includeArtifact: artifact=net.liftweb:lift-facebook:jar:1.1-SNAPSHOT:compile
+[DEBUG]     startProcessChildren: artifact=net.liftweb:lift-facebook:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=org.scala-lang:scala-library:jar:2.7.4:compile
+[DEBUG]       omitForNearer: omitted=org.scala-lang:scala-library:jar:2.7.4:compile kept=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]       testArtifact: artifact=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]       omitForNearer: omitted=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile kept=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]     endProcessChildren: artifact=net.liftweb:lift-facebook:jar:1.1-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=net.liftweb:lift-amqp:jar:1.1-SNAPSHOT:compile
+[DEBUG]     includeArtifact: artifact=net.liftweb:lift-amqp:jar:1.1-SNAPSHOT:compile
+[DEBUG]     startProcessChildren: artifact=net.liftweb:lift-amqp:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=org.scala-lang:scala-library:jar:2.7.4:compile
+[DEBUG]       omitForNearer: omitted=org.scala-lang:scala-library:jar:2.7.4:compile kept=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]       testArtifact: artifact=com.rabbitmq:rabbitmq-client:jar:1.3.0:compile
+[DEBUG]       includeArtifact: artifact=com.rabbitmq:rabbitmq-client:jar:1.3.0:compile
+[DEBUG]       startProcessChildren: artifact=com.rabbitmq:rabbitmq-client:jar:1.3.0:compile
+[DEBUG]         testArtifact: artifact=commons-cli:commons-cli:jar:1.1:compile
+[DEBUG]         includeArtifact: artifact=commons-cli:commons-cli:jar:1.1:compile
+[DEBUG]         startProcessChildren: artifact=commons-cli:commons-cli:jar:1.1:compile
+[DEBUG]         endProcessChildren: artifact=commons-cli:commons-cli:jar:1.1:compile
+[DEBUG]         testArtifact: artifact=commons-io:commons-io:jar:1.2:compile
+[DEBUG]         includeArtifact: artifact=commons-io:commons-io:jar:1.2:compile
+[DEBUG]         startProcessChildren: artifact=commons-io:commons-io:jar:1.2:compile
+[DEBUG]         endProcessChildren: artifact=commons-io:commons-io:jar:1.2:compile
+[DEBUG]         testArtifact: artifact=junit:junit:jar:3.8.2:compile
+[DEBUG]         includeArtifact: artifact=junit:junit:jar:3.8.2:compile
+[DEBUG]         startProcessChildren: artifact=junit:junit:jar:3.8.2:compile
+[DEBUG]         endProcessChildren: artifact=junit:junit:jar:3.8.2:compile
+[DEBUG]       endProcessChildren: artifact=com.rabbitmq:rabbitmq-client:jar:1.3.0:compile
+[DEBUG]     endProcessChildren: artifact=net.liftweb:lift-amqp:jar:1.1-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=net.liftweb:lift-xmpp:jar:1.1-SNAPSHOT:compile
+[DEBUG]     includeArtifact: artifact=net.liftweb:lift-xmpp:jar:1.1-SNAPSHOT:compile
+[DEBUG]     startProcessChildren: artifact=net.liftweb:lift-xmpp:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=org.scala-lang:scala-library:jar:2.7.4:compile
+[DEBUG]       omitForNearer: omitted=org.scala-lang:scala-library:jar:2.7.4:compile kept=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]       testArtifact: artifact=org.igniterealtime.smack:smack:jar:3.1.0:compile
+[DEBUG]       includeArtifact: artifact=org.igniterealtime.smack:smack:jar:3.1.0:compile
+[DEBUG]       startProcessChildren: artifact=org.igniterealtime.smack:smack:jar:3.1.0:compile
+[DEBUG]       endProcessChildren: artifact=org.igniterealtime.smack:smack:jar:3.1.0:compile
+[DEBUG]       testArtifact: artifact=org.igniterealtime.smack:smackx:jar:3.1.0:compile
+[DEBUG]       includeArtifact: artifact=org.igniterealtime.smack:smackx:jar:3.1.0:compile
+[DEBUG]       startProcessChildren: artifact=org.igniterealtime.smack:smackx:jar:3.1.0:compile
+[DEBUG]       endProcessChildren: artifact=org.igniterealtime.smack:smackx:jar:3.1.0:compile
+[DEBUG]     endProcessChildren: artifact=net.liftweb:lift-xmpp:jar:1.1-SNAPSHOT:compile
+[DEBUG]     testArtifact: artifact=net.liftweb:lift-widgets:jar:1.1-SNAPSHOT:compile
+[DEBUG]     includeArtifact: artifact=net.liftweb:lift-widgets:jar:1.1-SNAPSHOT:compile
+[DEBUG]     startProcessChildren: artifact=net.liftweb:lift-widgets:jar:1.1-SNAPSHOT:compile
+[DEBUG]       testArtifact: artifact=org.scala-lang:scala-library:jar:2.7.4:compile
+[DEBUG]       omitForNearer: omitted=org.scala-lang:scala-library:jar:2.7.4:compile kept=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]       testArtifact: artifact=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]       omitForNearer: omitted=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile kept=net.liftweb:lift-webkit:jar:1.1-SNAPSHOT:compile
+[DEBUG]     endProcessChildren: artifact=net.liftweb:lift-widgets:jar:1.1-SNAPSHOT:compile
+[DEBUG]   endProcessChildren: artifact=net.liftweb:lift-core:jar:1.1-SNAPSHOT:compile
+[DEBUG]   testArtifact: artifact=org.apache.derby:derby:jar:10.4.2.0:compile
+[DEBUG]   includeArtifact: artifact=org.apache.derby:derby:jar:10.4.2.0:compile
+[DEBUG]   startProcessChildren: artifact=org.apache.derby:derby:jar:10.4.2.0:compile
+[DEBUG]   endProcessChildren: artifact=org.apache.derby:derby:jar:10.4.2.0:compile
+[DEBUG]   testArtifact: artifact=javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   includeArtifact: artifact=javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   startProcessChildren: artifact=javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   endProcessChildren: artifact=javax.servlet:servlet-api:jar:2.5:provided
+[DEBUG]   testArtifact: artifact=junit:junit:jar:4.5:test
+[DEBUG]   updateScopeCurrentPom: artifact=junit:junit:jar:4.5:test, scopeIgnored=compile
+[DEBUG]   omitForNearer: omitted=junit:junit:jar:3.8.2:compile kept=junit:junit:jar:4.5:test
+[DEBUG]   includeArtifact: artifact=junit:junit:jar:4.5:test
+[DEBUG]   startProcessChildren: artifact=junit:junit:jar:4.5:test
+[DEBUG]   endProcessChildren: artifact=junit:junit:jar:4.5:test
+[DEBUG]   testArtifact: artifact=org.mortbay.jetty:jetty:jar:6.1.16:test
+[DEBUG]   includeArtifact: artifact=org.mortbay.jetty:jetty:jar:6.1.16:test
+[DEBUG]   startProcessChildren: artifact=org.mortbay.jetty:jetty:jar:6.1.16:test
+[DEBUG]     testArtifact: artifact=org.mortbay.jetty:jetty-util:jar:6.1.16:test
+[DEBUG]     includeArtifact: artifact=org.mortbay.jetty:jetty-util:jar:6.1.16:test
+[DEBUG]     startProcessChildren: artifact=org.mortbay.jetty:jetty-util:jar:6.1.16:test
+[DEBUG]     endProcessChildren: artifact=org.mortbay.jetty:jetty-util:jar:6.1.16:test
+[DEBUG]     testArtifact: artifact=org.mortbay.jetty:servlet-api:jar:2.5-20081211:test
+[DEBUG]     includeArtifact: artifact=org.mortbay.jetty:servlet-api:jar:2.5-20081211:test
+[DEBUG]     startProcessChildren: artifact=org.mortbay.jetty:servlet-api:jar:2.5-20081211:test
+[DEBUG]     endProcessChildren: artifact=org.mortbay.jetty:servlet-api:jar:2.5-20081211:test
+[DEBUG]   endProcessChildren: artifact=org.mortbay.jetty:jetty:jar:6.1.16:test
+[DEBUG]   testArtifact: artifact=org.scala-lang:scala-compiler:jar:2.7.3:test
+[DEBUG]   includeArtifact: artifact=org.scala-lang:scala-compiler:jar:2.7.3:test
+[DEBUG]   startProcessChildren: artifact=org.scala-lang:scala-compiler:jar:2.7.3:test
+[DEBUG]     testArtifact: artifact=org.scala-lang:scala-library:jar:2.7.3:test
+[DEBUG]     omitForNearer: omitted=org.scala-lang:scala-library:jar:2.7.3:test kept=org.scala-lang:scala-library:jar:2.7.3:compile
+[DEBUG]   endProcessChildren: artifact=org.scala-lang:scala-compiler:jar:2.7.3:test
+[DEBUG] endProcessChildren: artifact=demo.helloworld:vinavidai:war:1.1-SNAPSHOT
+[DEBUG] checking [demo.helloworld:vinavidai:war:1.1-SNAPSHOT] for scala version
+[DEBUG] checking [org.scala-lang:scala-library:jar:2.7.3:compile] for scala version
+[DEBUG] checking [net.liftweb:lift-core:jar:1.1-SNAPSHOT:compile] for scala version
+[DEBUG] checking [net.liftweb:lift-util:jar:1.1-SNAPSHOT:compile] for scala version
+[DEBUG] checking [org.scala-lang:scala-library:jar:2.7.4:compile] for scala version
+[WARNING] Multiple versions of scala libraries detected!
+[DEBUG] D:\Scala\Application\github\VinaVidai\vinavidai\src\main\scala
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESSFUL
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6 seconds
+[INFO] Finished at: Fri Jun 05 23:38:40 SGT 2009
+[INFO] Final Memory: 16M/30M
+[INFO] ------------------------------------------------------------------------
