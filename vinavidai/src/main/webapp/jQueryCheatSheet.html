@@ -1,0 +1,33 @@
+<html>
+<script
+	src="http://www.google.com/jsapi?key=ABQIAAAAjYfJO7C0Qbr_8oqat_6u7RRexG7zW5nSjltmIc1ZE-b8yotBWhTfMc0wJmDiKxE1CT5evhUBdKwYTA"
+	type="text/javascript"></script>
+<script language="Javascript" type="text/javascript">
+	google.load("jquery", "1.3.2");
+	</script>
+
+<style type="text/css">
+.step {
+	display: none;
+}
+</style>
+
+
+<form method="post" action="http://example.com/some/far/away/place">
+<div id="step1" class="step">Show the record </div>
+<div id="step2" class="step"></div>
+<div id="step3" class="step"><input type="submit"
+	id="frm_submit_btn" /></div>
+</form>
+<script type="text/javascript" language="javascript">  
+   var step1 = $('#step1');  
+   var step2 = $('#step2');  
+   var step3 = $('#step3');     
+   //step1.bindStep(step2);
+   //step2.bindStep(step3);  
+   $('#step1').hide(10000);  
+   $('#step1').show(10000);  
+   $('#step1').hide(10000);  
+</script>
+
+</html>
