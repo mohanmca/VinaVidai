@@ -1,5 +1,7 @@
 package com.nikias.vina.model
 
+import net.liftweb.common._
+
 import net.liftweb._
 import mapper._
 import http._

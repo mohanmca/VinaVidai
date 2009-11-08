@@ -2,6 +2,7 @@ package com.nikias.vina.model
 
 import _root_.net.liftweb.mapper._
 import _root_.net.liftweb.util._
+import net.liftweb.common._
 
 /**
  * The singleton that has methods for accessing the database

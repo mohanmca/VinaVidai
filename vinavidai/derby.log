@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-2009-06-05 15:45:38.131 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.4.2.0 - (689064): instance a816c00e-0121-b118-be43-0000006dc170
-on database directory D:\Scala\Application\github\VinaVidai\vinavidai\lift_example  
+2009-11-08 15:31:53.671 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.4.2.0 - (689064): instance a816c00e-0124-d46c-3908-0000006fd0d0
+on database directory D:\Development\projects\VinaVidai\vinavidai\lift_example  
 
 Database Class Loader started - derby.database.classpath=''

@@ -1,0 +1,13 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building vinavidai
+[INFO]    task-segment: [clean, jetty:run]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory D:\Development\projects\VinaVidai\vinavidai\target
+[INFO] Preparing jetty:run
+[INFO] [resources:resources {execution: default-resources}]
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Development\projects\VinaVidai\vinavidai\src\main\resources
+Terminate batch job (Y/N)? 
+^CTerminate batch job (Y/N)? ^C

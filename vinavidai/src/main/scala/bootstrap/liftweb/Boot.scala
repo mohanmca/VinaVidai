@@ -9,6 +9,8 @@ import _root_.net.liftweb.mapper.{DB, ConnectionManager, Schemifier, DefaultConn
 import _root_.java.sql.{Connection, DriverManager}
 import _root_.com.nikias.vina.model._
 import _root_.javax.servlet.http.{HttpServletRequest}
+import _root_.net.liftweb.common._
+
 
 /**
   * A class that's instantiated early and run.  It allows the application
@@ -43,7 +45,7 @@ class Boot {
     LiftRules.ajaxEnd =
       Full(() => LiftRules.jsArtifacts.hide("ajax-loader").cmd)
 
-    LiftRules.early.append(makeUtf8)
+    //LiftRules.early.append(makeUtf8)
 
     S.addAround(DB.buildLoanWrapper)
   }

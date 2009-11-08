@@ -3,6 +3,7 @@ import com.nikias.vina._
 import com.nikias.vina.model._
 import model._
 import net.liftweb._
+import net.liftweb.common._
 import http._
 
 import SHtml._
