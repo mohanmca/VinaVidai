@@ -1,0 +1,26 @@
+Pong : Extends Actor
+Ping : Extends Actor
+	Actor is a triat (not a class or interface)
+	Actor extends AbstractActor traits which itself an outputchannel.
+	Actor has :mailbox (which is instance of MessageQueue)
+		MessageQueue can handle MessageQueueElement
+			MesageQueueElement is a node (an element called :msg, and pointer to next element called :next)
+		MessaageQueue element has just two nodes of MessageQueueElement (:firt, :last)
+			So it can travel from first to last and viceversa.
+	Actor has a channel :rc.
+		using that channel others can send/receive messages.
+		Channel has following methods.
+			forward(msg, anotherchannel), send(msg), receive, receiveWithin
+	Actor can be started using it's start method (which is synchronized)
+	
+	Actor uses Scheduler to execute itself.
+		Scheduler is Fork/JoinTaskScheduler.
+		Scheduler can accept runnable, or any function which returns Unit or ()
+		
+	Actor's start method ensures that Actor is pushed to underneath sceduler for execution.
+	
+	Actor has two attibutes, :receiver (==this), and :sender (still trying to find how they implmented sender without ThreadLocal)
+
+When Actor is executed from main(String...), main thread completes sooner before Actor completes.
+
+Prefered way of creating Actor is using it's Singleton method, it's behaviour is defined insdie act() method.
